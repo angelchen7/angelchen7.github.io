@@ -5,7 +5,7 @@ site: distill::distill_website
 
 <center>
 
-![](images/me.png){width="30%"}
+![](images/20210421_122949.png){width="30%"}
 
 </center>
 
