@@ -1,18 +1,24 @@
 ---
-title: "My Website"
-description: |
-  Welcome to the website. I hope you enjoy it!
+title: "Angel Chen"
 site: distill::distill_website
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+<center>
 
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
+![](images/me.png){width="30%"}
 
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/distill/publish_website.html#github-pages
+</center>
 
-```
+Hi! My name is Angel Chen and welcome to my personal website! I'm a recent graduate from the University of California, Santa Barbara, with a Bachelor's degree in Statistics & Data Science! My interests are open science and reproducible workflows! Currently, I work as a data analyst for the National Center for Ecological Analysis and Synthesis ([NCEAS](https://www.nceas.ucsb.edu/)), supporting the Long Term Ecological Research ([LTER](https://lternet.edu/)) Network.
 
+<center>
+
+::: {.list-group .col-8 .m-1 .text-center .d-block .d-sm-none}
+<a href="https://github.com/angelchen7"> <button type="button" class="list-group-item list-group-item-action my-1 rounded"> <i class="fab fa-github"></i> GitHub </button> </a>
+
+<a href="https://www.linkedin.com/in/angel-chen-854376181/"> <button type="button" class="list-group-item list-group-item-action my-1 rounded"> <i class="fab fa-linkedin"></i> LinkedIn </button> </a>
+
+<a href="mailto:angel777chen@gmail.com"> <button type="button" class="list-group-item list-group-item-action my-1 rounded"> <i class="fas fa-envelope"></i> Email </button> </a>
+:::
+
+</center>

@@ -1,20 +1,19 @@
 {
   "articles": [
     {
-      "path": "about.html",
-      "title": "About this site",
-      "description": "Some additional details about the website",
+      "path": "index.html",
+      "title": "Angel Chen",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2022-05-19T13:11:05-07:00"
+      "contents": "\n\n\n\nHi! My name is Angel Chen and welcome to my personal website! I’m a\nrecent graduate from the University of California, Santa Barbara, with a\nBachelor’s degree in Statistics & Data Science! My interests are\nopen science and reproducible workflows! Currently, I work as a data\nanalyst for the National Center for Ecological Analysis and Synthesis\n(NCEAS), supporting the Long\nTerm Ecological Research (LTER)\nNetwork.\n\n\n\n\n GitHub  \n\n\n LinkedIn  \n\n\n Email  \n\n\n\n\n\n",
+      "last_modified": "2022-07-20T15:23:56-07:00"
     },
     {
-      "path": "index.html",
-      "title": "My Website",
-      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "path": "projects.html",
+      "title": "Projects",
+      "description": "A list of projects I've worked on ",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2022-05-19T13:11:06-07:00"
+      "contents": "\nTesting\n\n\n\n",
+      "last_modified": "2022-07-20T15:23:57-07:00"
     }
   ],
   "collections": []

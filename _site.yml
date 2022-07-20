@@ -1,5 +1,6 @@
 name: "angelchen7.github.io"
 title: "My Website"
+theme: theme.css
 description: |
   My Website
 output_dir: "docs"
@@ -7,6 +8,6 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Projects"
+      href: projects.html
 output: distill::distill_article
