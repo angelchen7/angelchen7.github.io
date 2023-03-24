@@ -1,0 +1,8 @@
+---
+title: "Angel Chen"
+---
+
+![](images/20210421_122949.png){width="30%"}
+
+Hi! My name is Angel Chen and welcome to my personal website! I'm a recent graduate from the University of California, Santa Barbara, with a Bachelor's degree in Statistics & Data Science! My interests are open science and reproducible workflows! Currently, I work as a data analyst for the National Center for Ecological Analysis and Synthesis ([NCEAS](https://www.nceas.ucsb.edu/)), supporting the Long Term Ecological Research ([LTER](https://lternet.edu/)) Network.
+
