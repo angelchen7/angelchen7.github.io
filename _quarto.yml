@@ -7,8 +7,8 @@ execute:
   freeze: auto
 
 website:
-  title: "Hi there!"
-  favicon: images/scicomptools_hex.png
+  title: "Angel Chen"
+  favicon: images/60fps_parrot.gif
   repo-url: https://github.com/angelchen7/angelchen7.github.io
   navbar:
     background: primary
