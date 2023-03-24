@@ -1,0 +1,31 @@
+project:
+  type: website
+  execute-dir: project
+  output-dir: docs
+  
+execute:
+  freeze: auto
+
+website:
+  title: "Angel Chen"
+  favicon: images/60fps_parrot.gif
+  repo-url: https://github.com/angelchen7/angelchen7.github.io
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: "Home"
+      - projects.qmd
+    right:
+      - icon: github
+        href: https://github.com/angelchen7/
+
+format:
+  html:
+    theme:
+       light: light_theme.scss
+       dark: dark_theme.scss
+    mainfont: Lato
+    toc: true
+    link-external-newwindow: true
+    link-external-icon: false

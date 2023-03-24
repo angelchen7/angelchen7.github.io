@@ -1,0 +1,27 @@
+---
+title: "Hi there!"
+---
+
+```{=html}
+<style type="text/css">
+h1.title {
+  font-size: 38px;
+  text-align: center;
+}
+</style>
+```
+<center>![](images/20210421_122949.png){width="30%"}</center>
+
+# About Me
+
+Hi! My name is Angel Chen and welcome to my personal website! I'm a recent graduate from the University of California, Santa Barbara, with a Bachelor's degree in Statistics & Data Science! My interests are open science and reproducible workflows! Currently, I work as a data analyst at the National Center for Ecological Analysis and Synthesis ([NCEAS](https://www.nceas.ucsb.edu/)), supporting the Long Term Ecological Research ([LTER](https://lternet.edu/)) Network.
+
+In my spare time, I like to look at and admire birds. My favorite birds include rock doves and mourning doves.
+
+<p align="center">
+
+<img src="images/pigeon.JPG" width="100%"/>
+
+<figcaption>A pigeon having a great day!</figcaption>
+
+</p>
