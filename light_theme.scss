@@ -9,6 +9,8 @@ $pale-purple: #F8EBFF;
 $blue: #99C0FA;
 $yellow: #FCFBED;
 $pink-lavender: #E6B9D4;
+$cherry-blossom: #FFB2C7;
+$mimi-pink: #FFD7E2;
 
 /* generally useful other colors */
 $cream: #F4F3EE;
@@ -24,10 +26,10 @@ $font-size: 25px;
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@300&display=swap');
 
 // Base document colors
-$navbar-bg: $dark-pink; // navbar
-$navbar-fg: $pale-purple; // navbar foreground elements
-$navbar-hl: $pink-lavender; // highlight color when on a page
-$body-bg: $pale-purple; // page background
+$navbar-bg: $cherry-blossom; // navbar
+$navbar-fg: $dark-pink; // navbar foreground elements
+$navbar-hl: $mimi-pink; // highlight color when on a page
+$body-bg: $mimi-pink; // page background
 $body-color: $dark-purple; // page text
 $link-color: $blue; // hyperlinks
 
