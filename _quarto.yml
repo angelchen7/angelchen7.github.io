@@ -8,7 +8,7 @@ execute:
 
 website:
   title: "Angel Chen"
-  favicon: <link rel="icon" href="images/60fps_parrot.gif" type="image/gif" /> 
+  favicon: images/60fps_parrot.gif
   repo-url: https://github.com/angelchen7/angelchen7.github.io
   navbar:
     background: primary
