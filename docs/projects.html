@@ -110,7 +110,15 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#credit-card" id="toc-credit-card" class="nav-link active" data-scroll-target="#credit-card">Credit Card 💳</a></li>
+  <li><a href="#renewable-energy" id="toc-renewable-energy" class="nav-link" data-scroll-target="#renewable-energy">Renewable Energy ☀️</a></li>
+  <li><a href="#spam-emails" id="toc-spam-emails" class="nav-link" data-scroll-target="#spam-emails">Spam Emails 📧</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -132,9 +140,27 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Under Construction</p>
+<p>Here are some projects I’ve worked on as an undergrad in UC Santa Barbara!</p>
+<section id="credit-card" class="level1">
+<h1>Credit Card 💳</h1>
+<p>In this project, I worked with my team to predict whether the client will default on credit card payments based on their gender, education, marital status, age, amount of the given credit, history of past payment, amount of bill statements and amount of previous payments.</p>
+<p>We built the pipeline to preprocess the data and construct models. We applied several feature transformers such as VectorAssembler and StandardScaler from the PySpark ML package. The four models we developed were Logistic Regression, Decision Tree, Random Forest and Support Vector Machine. We evaluated our models’ performance using the metrics derived from the confusion matrix, and then finally chose Support Vector Machine as our champion model because it has the best accuracy of 0.8065.</p>
+<p>Links: <a href="https://github.com/angelchen7/angelchen7.github.io/blob/main/files/Credit_Card_Project_Writeup.pdf">project report</a> and <a href="https://github.com/angelchen7/Credit-Card">GitHub repo</a></p>
+</section>
+<section id="renewable-energy" class="level1">
+<h1>Renewable Energy ☀️</h1>
+<p>Renewable energy consumption has been increasing in the United States over the past 20 years as people sought alternatives to fossil fuels. Sources of renewable energy include hydroelectric power, geothermal, solar, wind, and biomass. In this project, I investigate the total monthly consumption of renewable energy in the United States from January 2001 to January 2020 and try to figure out a model that can be used to forecast how much renewable energy will be used in the future.</p>
+<p>In order to achieve this goal, I used the Box-Jenkins methodology. This method involves data transformation, differencing, examining autocorrelation and partial autocorrelation functions, model parameter estimation, checking for stationarity and invertibility, and diagnostic checking. To summarize my results, I came up with three plausible models for the data, but ended up with two satisfactory models that passed all checking. I concluded that one model was better than the other because it had lower AICc, an information criterion, and used it to predict renewable energy consumption for February 2019 to January 2020. My predictions followed the actual data values well, meaning that my model can be used for future forecasting, and it also supports the conclusion that renewable energy consumption is on an upward trend.</p>
+<p>Links: <a href="https://github.com/angelchen7/angelchen7.github.io/blob/main/files/Angel-Chen-PSTAT274-Project.pdf">project report</a> and <a href="https://github.com/angelchen7/Renewable-Energy">GitHub repo</a></p>
+</section>
+<section id="spam-emails" class="level1">
+<h1>Spam Emails 📧</h1>
+<p>Certain emails are automatically considered spam by algorithms in email systems. These algorithms track patterns of certain keywords, which allows them to classify spam and non-spam emails. This dataset, spambase.data, allows us to explore the connection between the frequency of keywords and whether an email is classified as spam. If such a connection exists, it would be more convenient for email users because their spam emails will be filtered out before reaching them.</p>
+<p>My team’s question: Is there a relationship between the predictors (frequency of keywords/characters, length of sequences, number of capital letters) and whether an email is considered spam or not? If so, which predictors affect the response?</p>
+<p>Links: <a href="https://github.com/angelchen7/angelchen7.github.io/blob/main/files/Jalen_Cindy_Angel_Report.pdf">project report</a> and <a href="https://github.com/angelchen7/Spam-Emails">GitHub repo</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
