@@ -1,0 +1,17 @@
+---
+title: "Presentations"
+---
+
+Conference presentations that I have participated in are listed here.
+
+# 2022
+
+LaMontagne, J. M., Crone, E. E., Redmond, M., Barton, J., Bell, D., Chaudhary, V. B., Chen, A., Cleavitt, N., Greene, D., Holland, E. P., Johnstone, J., Koenig, W., Lyon, N., Macias, D., Miller, T., Nigro, K., Pearse, I. S., Satake, A., Schulze, M., Slette, I., Snell, R., & Zimmerman, J. (2022, September 20). *Cross-site synthesis: Patterns & drivers of plant reproduction across LTER sites*. LTER All Scientists' Meeting, Pacific Grove, CA, United States. 
+
+Link: [poster](https://github.com/angelchen7/angelchen7.github.io/blob/main/files/2022-09-LTER-poster.pdf)
+
+# 2021
+
+Bachelder, N. R., Chen, A., Zoe, F., Rapaport, M. K., Bang, J., Solomon, S. J., Lee, M. J., & Seltmann, K. C. (2021, August 5). *Leveraging Large Biological Interaction Data to Quantify Plant Specialization by Bees*. Ecological Society of America Meeting, Virtual. Retrieved from https://escholarship.org/uc/item/33b2t2bq
+
+Link: [poster](https://github.com/angelchen7/angelchen7.github.io/blob/main/files/ESA_2021_poster.pdf)
