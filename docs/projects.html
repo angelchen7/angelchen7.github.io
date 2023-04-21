@@ -130,8 +130,10 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#credit-card" id="toc-credit-card" class="nav-link active" data-scroll-target="#credit-card">Credit Card 💳</a></li>
+  <li><a href="#bees" id="toc-bees" class="nav-link" data-scroll-target="#bees">Bees 🐝</a></li>
   <li><a href="#renewable-energy" id="toc-renewable-energy" class="nav-link" data-scroll-target="#renewable-energy">Renewable Energy ☀️</a></li>
   <li><a href="#spam-emails" id="toc-spam-emails" class="nav-link" data-scroll-target="#spam-emails">Spam Emails 📧</a></li>
+  <li><a href="#fossil-fuel" id="toc-fossil-fuel" class="nav-link" data-scroll-target="#fossil-fuel">Fossil Fuel 🦖</a></li>
   </ul>
 </nav>
     </div>
@@ -162,6 +164,12 @@ ul.task-list li input[type="checkbox"] {
 <p>We built the pipeline to preprocess the data and construct models. We applied several feature transformers such as VectorAssembler and StandardScaler from the PySpark ML package. The four models we developed were Logistic Regression, Decision Tree, Random Forest and Support Vector Machine. We evaluated our models’ performance using the metrics derived from the confusion matrix, and then finally chose Support Vector Machine as our champion model because it has the best accuracy of 0.8065.</p>
 <p>Links: <a href="https://github.com/angelchen7/angelchen7.github.io/blob/main/files/Credit_Card_Project_Writeup.pdf">project report</a> and <a href="https://github.com/angelchen7/Credit-Card">GitHub repo</a></p>
 </section>
+<section id="bees" class="level1">
+<h1>Bees 🐝</h1>
+<p>Large, open-access biological datasets, like those hosted by Global Biotic Interactions (GloBI), have become increasingly accessible due to greater data collection, compilation, and storage. These databases serve to better inform our understanding of species occurrences, interactions, and ecosystem structure, broadly. In this work, we leverage GloBI data to better understand patterns of pollination, a biologically and economically essential biotic interaction between plants and pollinators. Specifically, we sought to develop a better understanding of bee specialization of pollen, an evolutionary trait in bees that underscores the stability and structure of pollinator interaction networks. We compared GloBI and expert-compiled data to better understand patterns in resource specialization. We then trained various machine learning models (Decision Trees, Support Vector Machine, Logistic Regression) to create a defining line between specialist and non-specialist bees. In addition, data transformation was also useful for more clearly differentiating our specialization groups.</p>
+<p>Through our exploration of GloBI, we found several sources of bias, including the limitations of community data collection and scarcity of rare bees. We found a strong positive correlation between the number of sources (i.e.&nbsp;literature, natural history collection) citing the interactions of a bee species and the number of plant families visited by that same bee species. We also found that while expert classification of bee specialists visit fewer plant families than other bees in the GloBI dataset, there are clusters of species that diverge from the expected trend. Our trained models suggested that binary classification was not completely effective in determining the label of “specialist” or “non-specialist” for all bee species. These findings indicate that observer bias, on a global scale, can skew our definition of resource specialization or generalization. Moreover, large, open-access datasets like GloBI can change our previous understanding of biological interactions and systems by accessing novel data sources and aggregation.</p>
+<p>Links: <a href="https://github.com/angelchen7/angelchen7.github.io/blob/main/files/CCBER_Final_Report.pdf">project report</a> and <a href="https://escholarship.org/uc/item/33b2t2bq">ESA 2021 meeting poster</a></p>
+</section>
 <section id="renewable-energy" class="level1">
 <h1>Renewable Energy ☀️</h1>
 <p>Renewable energy consumption has been increasing in the United States over the past 20 years as people sought alternatives to fossil fuels. Sources of renewable energy include hydroelectric power, geothermal, solar, wind, and biomass. In this project, I investigate the total monthly consumption of renewable energy in the United States from January 2001 to January 2020 and try to figure out a model that can be used to forecast how much renewable energy will be used in the future.</p>
@@ -173,6 +181,11 @@ ul.task-list li input[type="checkbox"] {
 <p>Certain emails are automatically considered spam by algorithms in email systems. These algorithms track patterns of certain keywords, which allows them to classify spam and non-spam emails. This dataset, spambase.data, allows us to explore the connection between the frequency of keywords and whether an email is classified as spam. If such a connection exists, it would be more convenient for email users because their spam emails will be filtered out before reaching them.</p>
 <p>My team’s question: Is there a relationship between the predictors (frequency of keywords/characters, length of sequences, number of capital letters) and whether an email is considered spam or not? If so, which predictors affect the response?</p>
 <p>Links: <a href="https://github.com/angelchen7/angelchen7.github.io/blob/main/files/Jalen_Cindy_Angel_Report.pdf">project report</a> and <a href="https://github.com/angelchen7/Spam-Emails">GitHub repo</a></p>
+</section>
+<section id="fossil-fuel" class="level1">
+<h1>Fossil Fuel 🦖</h1>
+<p>As part of the UCSB Data Science Fellowship Tutoring Committee under Professor Yekaterina Kharitonova’s guidance, I created a lab project for undergrads in her Fall 2020 Introduction to Data Science 1 course. This lab project was made for the undergrads to practice their data analysis skills in Python. They were instructed to investigate how the COVID-19 lockdown affected monthly fossil fuel consumption in the United States from January 2001 to July 2020.</p>
+<p>Link: <a href="https://github.com/ucsb-ds/f20-fellows-projects/tree/main/angelchen-fossil-fuel">GitHub repo</a></p>
 
 
 </section>
