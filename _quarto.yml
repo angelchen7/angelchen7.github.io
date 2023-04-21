@@ -17,6 +17,12 @@ website:
         text: "Home"
       - projects.qmd
     right:
+      - icon: envelope-fill
+        href: mailto:angel777chen@gmail.com
+      - icon: file-text-fill
+        href: https://github.com/angelchen7/angelchen7.github.io/blob/main/files/AngelChen_CV.pdf
+      - icon: linkedin
+        href: https://www.linkedin.com/in/angel-chen-854376181/
       - icon: github
         href: https://github.com/angelchen7/
 
