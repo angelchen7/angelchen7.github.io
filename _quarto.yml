@@ -17,6 +17,7 @@ website:
         text: "Home"
       - projects.qmd
       - presentations.qmd
+      - workshops.qmd
     right:
       - icon: envelope-fill
         href: mailto:angel777chen@gmail.com
