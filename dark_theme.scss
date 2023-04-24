@@ -8,7 +8,7 @@ $mauve: #D7B3F1;
 $blue: #99C0FA;
 $pink-lavender: #E6B9D4;
 $african-violet: #917CB8;
-$yellow: #FCFBED;
+$ivory: #FCFBED;
 
 /* generally useful other colors */
 $cream: #F4F3EE;
@@ -32,6 +32,6 @@ $body-color: $cream; // page text
 $link-color: $blue; // hyperlinks
 
 // Code text
-$code-bg: $gray-0; // inline code background color
-$code-block-bg: $gray-0; // code block background color
-$code-color: $yellow; // inline code text color
+$code-bg: $african-violet; // inline code background color
+$code-block-bg: $african-violet; // code block background color
+$code-color: $ivory; // inline code text color

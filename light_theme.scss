@@ -7,10 +7,10 @@ $dark-purple: #49416D;
 $dark-pink: #D061A5;
 $pale-purple: #F8EBFF;
 $blue: #99C0FA;
-$yellow: #FCFBED;
+$ivory: #FCFBED;
 $pink-lavender: #E6B9D4;
 $cherry-blossom: #FFB2C7;
-$mimi-pink: #FFD7E2;
+$mimi-pink: #FFE3EA;
 
 /* generally useful other colors */
 $cream: #F4F3EE;
@@ -34,6 +34,6 @@ $body-color: $dark-purple; // page text
 $link-color: $blue; // hyperlinks
 
 // Code text
-$code-bg: $gray-0; // inline code background color
-$code-block-bg: $gray-0; // code block background color
-$code-color: $yellow; // inline code text color
+$code-bg: $cherry-blossom; // inline code background color
+$code-block-bg: $cherry-blossom; // code block background color
+$code-color: $ivory; // inline code text color
