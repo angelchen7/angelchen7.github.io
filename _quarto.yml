@@ -16,9 +16,10 @@ website:
       - href: index.qmd
         text: "Home"
       - about.qmd
-      - projects.qmd
-      - presentations.qmd
+      - selected.qmd
       - workshops.qmd
+      - presentations.qmd
+      - projects.qmd
     right:
       - icon: envelope-fill
         href: mailto:angel777chen@gmail.com
