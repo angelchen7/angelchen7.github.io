@@ -4,15 +4,15 @@ title: "Projects"
 
 Here are some projects I've worked on as an undergrad in UC Santa Barbara!
 
-# Credit Card 💳
+## Credit Card 💳
 
 In this project, I worked with my team to predict whether the client will default on credit card payments based on their gender, education, marital status, age, amount of the given credit, history of past payment, amount of bill statements and amount of previous payments.
 
 We built the pipeline to preprocess the data and construct models. We applied several feature transformers such as VectorAssembler and StandardScaler from the PySpark ML package. The four models we developed were Logistic Regression, Decision Tree, Random Forest and Support Vector Machine. We evaluated our models' performance using the metrics derived from the confusion matrix, and then finally chose Support Vector Machine as our champion model because it has the best accuracy of 0.8065.
 
-Links: [project report](https://github.com/angelchen7/angelchen7.github.io/blob/main/files/Credit_Card_Project_Writeup.pdf) and [GitHub repo](https://github.com/angelchen7/Credit-Card)
+**Links: [project report](https://github.com/angelchen7/angelchen7.github.io/blob/main/files/Credit_Card_Project_Writeup.pdf) and [GitHub repo](https://github.com/angelchen7/Credit-Card)**
 
-# Bees 🐝
+## Bees 🐝
 
 Large, open-access biological datasets, like those hosted by Global Biotic Interactions (GloBI), have become increasingly accessible due to greater data collection, compilation, and storage. These databases serve to better inform our understanding of species occurrences, interactions, and ecosystem structure, broadly. In this work, we leverage GloBI data to better understand patterns of pollination, a biologically and economically essential biotic interaction between plants and pollinators. Specifically, we sought to develop a better understanding of bee specialization of pollen, an evolutionary trait in bees that underscores the stability and structure of pollinator interaction networks. We compared GloBI and expert-compiled data to better understand patterns in resource specialization. We then trained various machine learning models (Decision Trees, Support Vector Machine, Logistic Regression) to create a defining line between specialist and non-specialist bees. In addition, data transformation was also useful for more clearly differentiating our specialization groups.
 
@@ -20,24 +20,24 @@ Through our exploration of GloBI, we found several sources of bias, including th
 
 Links: [project report](https://github.com/angelchen7/angelchen7.github.io/blob/main/files/CCBER_Final_Report.pdf) and [ESA 2021 meeting poster](https://escholarship.org/uc/item/33b2t2bq)
 
-# Renewable Energy ☀️
+## Renewable Energy ☀️
 
 Renewable energy consumption has been increasing in the United States over the past 20 years as people sought alternatives to fossil fuels. Sources of renewable energy include hydroelectric power, geothermal, solar, wind, and biomass. In this project, I investigate the total monthly consumption of renewable energy in the United States from January 2001 to January 2020 and try to figure out a model that can be used to forecast how much renewable energy will be used in the future.
 
 In order to achieve this goal, I used the Box-Jenkins methodology. This method involves data transformation, differencing, examining autocorrelation and partial autocorrelation functions, model parameter estimation, checking for stationarity and invertibility, and diagnostic checking. To summarize my results, I came up with three plausible models for the data, but ended up with two satisfactory models that passed all checking. I concluded that one model was better than the other because it had lower AICc, an information criterion, and used it to predict renewable energy consumption for February 2019 to January 2020. My predictions followed the actual data values well, meaning that my model can be used for future forecasting, and it also supports the conclusion that renewable energy consumption is on an upward trend.
 
-Links: [project report](https://github.com/angelchen7/angelchen7.github.io/blob/main/files/Angel-Chen-PSTAT274-Project.pdf) and [GitHub repo](https://github.com/angelchen7/Renewable-Energy)
+**Links: [project report](https://github.com/angelchen7/angelchen7.github.io/blob/main/files/Angel-Chen-PSTAT274-Project.pdf) and [GitHub repo](https://github.com/angelchen7/Renewable-Energy)**
 
-# Spam Emails 📧
+## Spam Emails 📧
 
 Certain emails are automatically considered spam by algorithms in email systems. These algorithms track patterns of certain keywords, which allows them to classify spam and non-spam emails. This dataset, spambase.data, allows us to explore the connection between the frequency of keywords and whether an email is classified as spam. If such a connection exists, it would be more convenient for email users because their spam emails will be filtered out before reaching them.
 
 My team's question: Is there a relationship between the predictors (frequency of keywords/characters, length of sequences, number of capital letters) and whether an email is considered spam or not? If so, which predictors affect the response?
 
-Links: [project report](https://github.com/angelchen7/angelchen7.github.io/blob/main/files/Jalen_Cindy_Angel_Report.pdf) and [GitHub repo](https://github.com/angelchen7/Spam-Emails)
+**Links: [project report](https://github.com/angelchen7/angelchen7.github.io/blob/main/files/Jalen_Cindy_Angel_Report.pdf) and [GitHub repo](https://github.com/angelchen7/Spam-Emails)**
 
-# Fossil Fuel 🦖
+## Fossil Fuel 🦖
 
 As part of the UCSB Data Science Fellowship Tutoring Committee under Professor Yekaterina Kharitonova's guidance, I created a lab project for undergrads in her Fall 2020 Introduction to Data Science 1 course. This lab project was made for the undergrads to practice their data analysis skills in Python. They were instructed to investigate how the COVID-19 lockdown affected monthly fossil fuel consumption in the United States from January 2001 to July 2020.
 
-Link: [GitHub repo](https://github.com/ucsb-ds/f20-fellows-projects/tree/main/angelchen-fossil-fuel)
+**Link: [GitHub repo](https://github.com/ucsb-ds/f20-fellows-projects/tree/main/angelchen-fossil-fuel)**

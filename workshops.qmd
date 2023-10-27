@@ -4,18 +4,18 @@ title: "Workshops"
 
 As part of the Long Term Ecological Research Network Office ([LNO](https://lternet.edu/)), I helped create some workshops in order to support our [synthesis working groups](https://lternet.edu/current-working-groups/). My colleagues and I have hosted these workshops numerous times on an as-needed basis for these groups.
 
-# Collaborative Coding with GitHub 
+## Collaborative Coding with GitHub 
 
 <img src="images/github_logo_gray.png" align="right" width="20%"/>
 
 In synthesis science, collaboration on code products is often integral to the productivity of the group. However, learning to use the software and graphical user interfaces that support this kind of teamwork can be a significant hurdle for teams that are already experts in their subject areas. This workshop is aimed at helping participants gain an understanding of the fundamental purpose and functioning of "version control" systems--specifically [GitHub](https://github.com/)--to help teams more effectively code collaboratively.
 
-Link: [workshop website](https://nceas.github.io/scicomp-workshop-collaborative-coding/)
+**Link: [workshop website](https://nceas.github.io/scicomp-workshop-collaborative-coding/)**
 
-# Coding in the `tidyverse`
+## Coding in the `tidyverse`
 
 <img src="images/tidyverse_hex.png" align="right" width="20%"/>
 
 For teams that code using the R programming language, the most familiar tools are often part of "base R" meaning that those functions and packages come pre-loaded when R is installed. Relatively recently the `tidyverse` has emerged as a comprehensive suite of packages that can complement base R or serve as an alternative for some tasks. This includes packages like `dplyr` and `tidyr` as well as the perhaps infamous pipe operator (`%>%`) among many other tools. This workshop is aimed at helping participants use the `tidyverse` equivalents of fundamental data wrangling tasks that learners may be used to performing with base R.
 
-Link: [workshop website](https://nceas.github.io/scicomp-workshop-tidyverse/)
+**Link: [workshop website](https://nceas.github.io/scicomp-workshop-tidyverse/)**
