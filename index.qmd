@@ -9,10 +9,10 @@ about:
       href: mailto:angel777chen@gmail.com
     - icon: file-text-fill
       text: CV
-      href: https://github.com/angelchen7/angelchen7.github.io/blob/main/files/AngelChenCV_Jan2024_v2.pdf
+      href: https://github.com/angelchen7/angelchen7.github.io/blob/main/files/AngelChenCV_Jan2024_v3.pdf
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/angel-chen-854376181/
+      href: https://www.linkedin.com/in/angel-chen77/
     - icon: github
       text: Github
       href: https://github.com/angelchen7/
