@@ -1,40 +1,5 @@
 [
   {
-    "objectID": "selected.html",
-    "href": "selected.html",
-    "title": "Selected Code",
-    "section": "",
-    "text": "Below are some examples of the work I’ve done for the Long Term Ecological Research (LTER) Network synthesis working groups. I get to work on a variety of tasks as a data analyst for the LTER Network Office, which allows me to broaden my flexible skill set."
-  },
-  {
-    "objectID": "selected.html#data-wrangling",
-    "href": "selected.html#data-wrangling",
-    "title": "Selected Code",
-    "section": "Data Wrangling 🛠",
-    "text": "Data Wrangling 🛠\nThe Plant Reproduction working group wanted plant trait data to research why some plants produce large amounts of seeds every few years. To assist this group, my team and I retrieved data from the TRY Plant Trait Database, which included traits such as plant seed mass, lifespan, flowering season, and seed persistence. Then we wrangled the TRY data so that we can combine it with a larger data set of plant traits that the working group already had. After much wrangling, we refined the integrated master data set to include 56 total variables for over 100 species. This data set was then used for further downstream analyses.\nLinks: GitHub repo"
-  },
-  {
-    "objectID": "selected.html#exploratory-graphing",
-    "href": "selected.html#exploratory-graphing",
-    "title": "Selected Code",
-    "section": "Exploratory Graphing 📈",
-    "text": "Exploratory Graphing 📈\nThe Plant Reproduction working group requested me to help them explore a potential analysis for one of their manuscripts. They were interested in a time series plot showing the total seed mass production in grams per year at specific plots at a site. I manipulated the columns in the aforementioned integrated master data set to calculate the grams of seed per species per year. Then I graphed the time series, with a separate panel for each plot.\nLinks: GitHub repo"
-  },
-  {
-    "objectID": "selected.html#spatial-data",
-    "href": "selected.html#spatial-data",
-    "title": "Selected Code",
-    "section": "Spatial Data 🌎",
-    "text": "Spatial Data 🌎\nThe Silica Export working group wanted to investigate drivers of riverine silicon exports and they requested for my team and I to identify and extract from various spatial data sets. In order to accomplish this, we first searched online for the data sets that best suited our needs. Then we gathered watershed shapefiles and extracted the spatial data within each watershed. Finally, we summarized the extracted values and exported them in a harmonized format that was easy to use for downstream analyses.\nLinks: GitHub repo"
-  },
-  {
-    "objectID": "selected.html#text-mining",
-    "href": "selected.html#text-mining",
-    "title": "Selected Code",
-    "section": "Text Mining 📑",
-    "text": "Text Mining 📑\nThe Ecosystem Transitions working group needed to review over 3000 papers in order to prepare a meta-analysis on ecosystem transitions. They split the reading assignments between their group members, but to speed the process along, they requested for me to find a way to quickly decide whether a paper is worth reading or not.\nSo I created a script that filters and ranks the abstracts and titles based on positive and negative keywords. The more positive keywords an abstract and its associated title have, the more likely it was for the group to include the full paper in their meta-analysis. On the other hand, if a paper’s abstract/title has more negative keywords, it means that the group will probably not be interested in this paper.\nAfter discussing with the group, we decided that it would be helpful for the group members to see how many negative keywords were in each paper’s abstract and title. So I added a column to each person’s reading assignment list that shows the count of negative keywords for each abstract and title. That way, they could prioritize reading the abstracts that have the least negative keywords and save time by discarding the ones that have the most negative keywords.\nIn the end, the group was able to use my work to decide on the 700 or so papers that will be included in round 2 of the meta-analysis.\nLinks: GitHub repo"
-  },
-  {
     "objectID": "workshops.html",
     "href": "workshops.html",
     "title": "Workshops",
@@ -53,7 +18,7 @@
     "href": "workshops.html#coding-in-the-tidyverse",
     "title": "Workshops",
     "section": "Coding in the tidyverse",
-    "text": "Coding in the tidyverse\n\nFor teams that code using the R programming language, the most familiar tools are often part of “base R” meaning that those functions and packages come pre-loaded when R is installed. Relatively recently the tidyverse has emerged as a comprehensive suite of packages that can complement base R or serve as an alternative for some tasks. This includes packages like dplyr and tidyr as well as the perhaps infamous pipe operator (%>%) among many other tools. This workshop is aimed at helping participants use the tidyverse equivalents of fundamental data wrangling tasks that learners may be used to performing with base R.\nLink: workshop website"
+    "text": "Coding in the tidyverse\n\nFor teams that code using the R programming language, the most familiar tools are often part of “base R” meaning that those functions and packages come pre-loaded when R is installed. Relatively recently the tidyverse has emerged as a comprehensive suite of packages that can complement base R or serve as an alternative for some tasks. This includes packages like dplyr and tidyr as well as the perhaps infamous pipe operator (%&gt;%) among many other tools. This workshop is aimed at helping participants use the tidyverse equivalents of fundamental data wrangling tasks that learners may be used to performing with base R.\nLink: workshop website"
   },
   {
     "objectID": "projects.html",
@@ -131,5 +96,40 @@
     "title": "Presentations",
     "section": "2021",
     "text": "2021\nBachelder, N. R., Chen, A., Zoe, F., Rapaport, M. K., Bang, J., Solomon, S. J., Lee, M. J., & Seltmann, K. C. (2021, August 5). Leveraging Large Biological Interaction Data to Quantify Plant Specialization by Bees. Ecological Society of America Meeting, Virtual. Retrieved from https://escholarship.org/uc/item/33b2t2bq\nLink: poster"
+  },
+  {
+    "objectID": "selected.html",
+    "href": "selected.html",
+    "title": "Selected Code",
+    "section": "",
+    "text": "Below are some examples of the work I’ve done for the Long Term Ecological Research (LTER) Network synthesis working groups. I get to work on a variety of tasks as a data analyst for the LTER Network Office, which allows me to broaden my flexible skill set."
+  },
+  {
+    "objectID": "selected.html#data-wrangling",
+    "href": "selected.html#data-wrangling",
+    "title": "Selected Code",
+    "section": "Data Wrangling 🛠",
+    "text": "Data Wrangling 🛠\nThe Plant Reproduction working group wanted plant trait data to research why some plants produce large amounts of seeds every few years. To assist this group, my team and I retrieved data from the TRY Plant Trait Database, which included traits such as plant seed mass, lifespan, flowering season, and seed persistence. Then we wrangled the TRY data so that we can combine it with a larger data set of plant traits that the working group already had. After much wrangling, we refined the integrated master data set to include 56 total variables for over 100 species. This data set was then used for further downstream analyses.\nLinks: GitHub repo"
+  },
+  {
+    "objectID": "selected.html#exploratory-graphing",
+    "href": "selected.html#exploratory-graphing",
+    "title": "Selected Code",
+    "section": "Exploratory Graphing 📈",
+    "text": "Exploratory Graphing 📈\nThe Plant Reproduction working group requested me to help them explore a potential analysis for one of their manuscripts. They were interested in a time series plot showing the total seed mass production in grams per year at specific plots at a site. I manipulated the columns in the aforementioned integrated master data set to calculate the grams of seed per species per year. Then I graphed the time series, with a separate panel for each plot.\nLinks: GitHub repo"
+  },
+  {
+    "objectID": "selected.html#spatial-data",
+    "href": "selected.html#spatial-data",
+    "title": "Selected Code",
+    "section": "Spatial Data 🌎",
+    "text": "Spatial Data 🌎\nThe Silica Export working group wanted to investigate drivers of riverine silicon exports and they requested for my team and I to identify and extract from various spatial data sets. In order to accomplish this, we first searched online for the data sets that best suited our needs. Then we gathered watershed shapefiles and extracted the spatial data within each watershed. Finally, we summarized the extracted values and exported them in a harmonized format that was easy to use for downstream analyses.\nLinks: GitHub repo"
+  },
+  {
+    "objectID": "selected.html#text-mining",
+    "href": "selected.html#text-mining",
+    "title": "Selected Code",
+    "section": "Text Mining 📑",
+    "text": "Text Mining 📑\nThe Ecosystem Transitions working group needed to review over 3000 papers in order to prepare a meta-analysis on ecosystem transitions. They split the reading assignments between their group members, but to speed the process along, they requested for me to find a way to quickly decide whether a paper is worth reading or not.\nSo I created a script that filters and ranks the abstracts and titles based on positive and negative keywords. The more positive keywords an abstract and its associated title have, the more likely it was for the group to include the full paper in their meta-analysis. On the other hand, if a paper’s abstract/title has more negative keywords, it means that the group will probably not be interested in this paper.\nAfter discussing with the group, we decided that it would be helpful for the group members to see how many negative keywords were in each paper’s abstract and title. So I added a column to each person’s reading assignment list that shows the count of negative keywords for each abstract and title. That way, they could prioritize reading the abstracts that have the least negative keywords and save time by discarding the ones that have the most negative keywords.\nIn the end, the group was able to use my work to decide on the 700 or so papers that will be included in round 2 of the meta-analysis.\nLinks: GitHub repo"
   }
 ]
