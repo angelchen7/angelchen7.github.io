@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About ☺️"
 ---
 
 Thanks for visiting my page! My name is Angel and my interest in data science, open science, and reproducible workflows started from my days as a student at the University of California, Santa Barbara! Feel free to meander on this website to explore some examples of my work. 

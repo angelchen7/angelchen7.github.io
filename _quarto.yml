@@ -14,7 +14,7 @@ website:
     background: primary
     left:
       - href: index.qmd
-        text: "Home"
+        text: "Home 🏠"
       - about.qmd
       - selected.qmd
       - workshops.qmd
