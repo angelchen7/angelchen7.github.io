@@ -2,45 +2,24 @@
 title: "About"
 ---
 
-I'm a recent graduate from the University of California, Santa Barbara, with a Bachelor's degree in Statistics & Data Science! My interests are open science and reproducible workflows! 
+Thanks for visiting my page! My name is Angel and my interest in data science, open science, and reproducible workflows started from my days as a student at the University of California, Santa Barbara! Feel free to meander on this website to explore some examples of my work. 
 
-Currently, I work as a data analyst at the National Center for Ecological Analysis and Synthesis ([NCEAS](https://www.nceas.ucsb.edu/)), supporting the Long Term Ecological Research ([LTER](https://lternet.edu/)) Network synthesis working groups. I help the [working groups](https://lternet.edu/current-working-groups/) develop reproducible workflows to wrangle, harmonize, analyze, and visualize ecological datasets. I also host [workshops](https://angelchen7.github.io/workshops.html) for them. 
+Currently, I work as a data scientist at the [Malone Disturbance Ecology Lab](https://www.malonelab.org/), focusing on scripting reproducible workflows to clean and analyze diverse data sources, as well as providing technical support to my lab members. I also develop web apps and R packages for the lab along the way!  
+
+Previously, I worked as a data analyst at the National Center for Ecological Analysis and Synthesis ([NCEAS](https://www.nceas.ucsb.edu/)), supporting the Long Term Ecological Research ([LTER](https://lternet.edu/)) Network synthesis working groups. I helped the [working groups](https://lternet.edu/current-working-groups/) develop reproducible workflows to wrangle, harmonize, analyze, and visualize ecological datasets. I also hosted [workshops](https://angelchen7.github.io/workshops.html) for them. 
 
 Before joining the LTER, I was a data curator for NCEAS [Arctic Data Center](https://arcticdata.io/). I created metadata records using Ecological Metadata Language (EML) and archived ecological datasets from research projects focused in the Arctic. Ensuring that the metadata is complete is a crucial part of making the data finable, accessible, interoperable, and reusable by others in the future. 
 
 In my spare time, I like to look at and admire birds. My favorite birds include rock doves and mourning doves. Here are some pictures I've taken over the years:
 
-<p align="center">
-<img src="images/IMG_5224.jpg" align="center" width="80%"/>
-</p>
+![A pigeon flaps open its wings to balance itself on my hand, Golden Gate Park, San Francisco](images/IMG_5224.jpg){width=70% fig-align="left"}
 
-<center>*A pigeon flaps open its wings to balance itself on my hand, Golden Gate Park, San Francisco*</center>
+![A pigeon grabs some millet from my hand, Golden Gate Park, San Francisco](images/IMG_6805.jpg){width=70% fig-align="left"}
 
-<p align="center">
-<img src="images/IMG_6805.jpg" align="center" width="80%"/>
-</p>
+![A crested duck looks closely at the ground, Golden Gate Park, San Francisco](images/IMG_6794.jpg){width=70% fig-align="left"}
 
-<center>*A pigeon grabs some millet from my hand, Golden Gate Park, San Francisco*</center>
+![A female duck with its ducklings, Golden Gate Park, San Francisco](images/IMG_6791.jpg){width=70% fig-align="left"}
 
-<p align="center">
-<img src="images/IMG_6794.jpg" align="center" width="80%"/>
-</p>
+![A flock of pigeons gathers around a pile of rice, Chinatown, San Francisco](images/IMG_4249.jpg){width=70% fig-align="left"}
 
-<center>*A crested duck looks closely at the ground, Golden Gate Park, San Francisco*</center>
-
-<p align="center">
-<img src="images/IMG_6791.jpg" align="center" width="80%"/>
-</p>
-
-<center>*A female duck with its ducklings, Golden Gate Park, San Francisco*</center>
-
-<p align="center">
-<img src="images/IMG_4249.jpg" align="center" width="80%"/>
-</p>
-<center>*A flock of pigeons gathers around a pile of rice, Chinatown, San Francisco*</center>
-
-<p align="center">
-<img src="images/20210917_101504.jpg" align="center" width="80%"/>
-</p>
-<center>*A collared dove stops by my yard, San Francisco*</center>
-
+![A collared dove stops by my yard, San Francisco](images/20210917_101504.jpg){width=70% fig-align="left"}
