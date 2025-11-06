@@ -22,14 +22,15 @@ about:
 ### Hi, I'm Angel Chen! Welcome to my personal website ✨
 :::
 
+### Experience
+
+- Nov 2024 – Present: Data Scientist | Malone Disturbance Ecology Lab
+- Feb 2022 – Oct 2024: Data Analyst | National Center for Ecological Analysis and Synthesis (NCEAS)
+- Oct 2019 – Feb 2022: Data Curator | Arctic Data Center (ADC)
+
 ### Education
 
 - 2021: Bachelor of Science in Statistics & Data Science | University of California, Santa Barbara
-
-### Experience
-
-- 2022 - Present: Data Analyst | Long Term Ecological Research (LTER) Network
-- 2019 - 2022: Data Curator | Arctic Data Center (ADC)
 
 ### Interests
 
