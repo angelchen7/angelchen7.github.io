@@ -18,7 +18,7 @@ website:
       - about.qmd
       - selected.qmd
       - workshops.qmd
-      - presentations.qmd
+      - publications.qmd
       - projects.qmd
     right:
       - icon: envelope-fill

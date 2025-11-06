@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Selected Code – Angel Chen</title>
+<title>Publications 📖 – Angel Chen</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -99,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./selected.html" aria-current="page"> 
+    <a class="nav-link" href="./selected.html"> 
 <span class="menu-text">Selected Code</span></a>
   </li>  
   <li class="nav-item">
@@ -107,8 +107,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Workshops</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
-<span class="menu-text">Publications</span></a>
+    <a class="nav-link active" href="./publications.html" aria-current="page"> 
+<span class="menu-text">Publications 📖</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./projects.html"> 
@@ -148,24 +148,15 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#data-wrangling" id="toc-data-wrangling" class="nav-link active" data-scroll-target="#data-wrangling">Data Wrangling 🛠</a></li>
-  <li><a href="#exploratory-graphing" id="toc-exploratory-graphing" class="nav-link" data-scroll-target="#exploratory-graphing">Exploratory Graphing 📈</a></li>
-  <li><a href="#spatial-data" id="toc-spatial-data" class="nav-link" data-scroll-target="#spatial-data">Spatial Data 🌎</a></li>
-  <li><a href="#text-mining" id="toc-text-mining" class="nav-link" data-scroll-target="#text-mining">Text Mining 📑</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Selected Code</h1>
+<h1 class="title">Publications 📖</h1>
 </div>
 
 
@@ -182,32 +173,15 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Below are some examples of the work I’ve done for the Long Term Ecological Research (<a href="https://lternet.edu/">LTER</a>) Network <a href="https://lternet.edu/current-working-groups/">synthesis working groups</a>. I get to work on a variety of tasks as a data analyst for the LTER Network Office, which allows me to broaden my flexible skill set.</p>
-<section id="data-wrangling" class="level2">
-<h2 class="anchored" data-anchor-id="data-wrangling">Data Wrangling 🛠</h2>
-<p>The <a href="https://lternet.edu/working-groups/identifying-environmental-drivers-of-plant-reproduction-across-lter-sites/">Plant Reproduction working group</a> wanted plant trait data to research why some plants produce large amounts of seeds every few years. To assist this group, <a href="https://nceas.github.io/scicomp.github.io/staff.html">my team</a> and I retrieved data from the <a href="https://www.try-db.org/TryWeb/Home.php">TRY Plant Trait Database</a>, which included traits such as plant seed mass, lifespan, flowering season, and seed persistence. Then we wrangled the TRY data so that we can combine it with a larger data set of plant traits that the working group already had. After much wrangling, we refined the integrated master data set to include 56 total variables for over 100 species. This data set was then used for further downstream analyses.</p>
-<p><strong>Links: <a href="https://github.com/NCEAS/scicomptasks/tree/main/wg_plant_repro">GitHub repo</a></strong></p>
-</section>
-<section id="exploratory-graphing" class="level2">
-<h2 class="anchored" data-anchor-id="exploratory-graphing">Exploratory Graphing 📈</h2>
-<p>The <a href="https://lternet.edu/working-groups/identifying-environmental-drivers-of-plant-reproduction-across-lter-sites/">Plant Reproduction working group</a> requested me to help them explore a potential analysis for one of their manuscripts. They were interested in a time series plot showing the total seed mass production in grams per year at specific plots at a site. I manipulated the columns in the aforementioned integrated master data set to calculate the grams of seed per species per year. Then I graphed the time series, with a separate panel for each plot.</p>
-<p><strong>Links: <a href="https://github.com/NCEAS/scicomptasks/tree/main/wg_plant_repro">GitHub repo</a></strong></p>
-</section>
-<section id="spatial-data" class="level2">
-<h2 class="anchored" data-anchor-id="spatial-data">Spatial Data 🌎</h2>
-<p>The <a href="https://lternet.edu/working-groups/from-poles-to-tropics-a-multi-biome-synthesis-investigating-the-controls-on-river-si-exports/">Silica Export working group</a> wanted to investigate drivers of riverine silicon exports and they requested for <a href="https://nceas.github.io/scicomp.github.io/staff.html">my team</a> and I to identify and extract from various spatial data sets. In order to accomplish this, we first searched online for the data sets that best suited our needs. Then we gathered watershed shapefiles and extracted the spatial data within each watershed. Finally, we summarized the extracted values and exported them in a harmonized format that was easy to use for downstream analyses.</p>
-<p><strong>Links: <a href="https://github.com/lter/lterwg-silica-spatial/tree/master">GitHub repo</a></strong></p>
-</section>
-<section id="text-mining" class="level2">
-<h2 class="anchored" data-anchor-id="text-mining">Text Mining 📑</h2>
-<p>The <a href="https://lternet.edu/working-groups/ecosystem-transitions-increased-variability-and-regime-shifts/">Ecosystem Transitions working group</a> needed to review over 3000 papers in order to prepare a meta-analysis on ecosystem transitions. They split the reading assignments between their group members, but to speed the process along, they requested for me to find a way to quickly decide whether a paper is worth reading or not.</p>
-<p>So I created a script that filters and ranks the abstracts and titles based on positive and negative keywords. The more positive keywords an abstract and its associated title have, the more likely it was for the group to include the full paper in their meta-analysis. On the other hand, if a paper’s abstract/title has more negative keywords, it means that the group will probably not be interested in this paper.</p>
-<p>After discussing with the group, we decided that it would be helpful for the group members to see how many negative keywords were in each paper’s abstract and title. So I added a column to each person’s reading assignment list that shows the count of negative keywords for each abstract and title. That way, they could prioritize reading the abstracts that have the least negative keywords and save time by discarding the ones that have the most negative keywords.</p>
-<p>In the end, the group was able to use my work to decide on the 700 or so papers that will be included in round 2 of the meta-analysis.</p>
-<p><strong>Links: <a href="https://github.com/lter/lterwg-transitions/tree/main/Papers_Search">GitHub repo</a></strong></p>
+<p>Here are the publications I’ve been a part of!</p>
+<p>Maurer, G. E. et al.&nbsp;Ten simple rules for team synthesis in ecological research. [In prep]</p>
+<p>Ohlert, T. et al.&nbsp;(2025). Drought intensity and duration interact to magnify losses in primary productivity. <i>Science, 390</i>(6770), 284-289. <a href="https://doi.org/10.1126/science.ads8144">doi.org/10.1126/science.ads8144</a>.</p>
+<p>Malone, S. L., McLeod, G., Chen, A. &amp; Tupaj, M. (2025). Contemporary Fire Regimes of the Subtropical Everglades. <i>Sci Data, 12</i>, Article 1622. <a href="https://doi.org/10.1038/s41597-025-05917-6">doi.org/10.1038/s41597-025-05917-6</a>.</p>
+<p>Brun, J. et al.&nbsp;(2025). Enabling data-driven collaborative and reproducible environmental synthesis science. <i>Methods in Ecology and Evolution, 16</i>(6), 1061–1074. <a href="https://doi.org/10.1111/2041-210X.70036">doi.org/10.1111/2041-210X.70036</a>.</p>
+<p>Nigro, K. M. et al.&nbsp;(2025). Co-mast: Harmonized seed production data for woody plants across US long-term research sites. <i>Ecology, 106</i>(1), Article e4463. <a href="https://doi.org/10.1002/ecy.4463">doi.org/10.1002/ecy.4463</a>.</p>
+<p>LaMontagne, J. M. et al.&nbsp;(2024). Community Synchrony in Seed Production is Associated With Trait Similarity and Climate Across North America. <i>Ecology Letters, 27</i>(12), Article e14498. <a href="https://doi.org/10.1111/ele.14498">doi.org/10.1111/ele.14498</a>.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

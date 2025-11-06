@@ -1,0 +1,19 @@
+---
+title: "Publications 📖"
+---
+
+Here are the publications I've been a part of! 
+
+Maurer, G. E. et al. Ten simple rules for team synthesis in ecological research. [In prep]
+
+Ohlert, T. et al. (2025). Drought intensity and duration interact to magnify losses in primary productivity. <i>Science, 390</i>(6770), 284-289. [doi.org/10.1126/science.ads8144](https://doi.org/10.1126/science.ads8144).
+
+Malone, S. L., McLeod, G., Chen, A. & Tupaj, M. (2025). Contemporary Fire Regimes of the Subtropical Everglades. <i>Sci Data, 12</i>, Article 1622. [doi.org/10.1038/s41597-025-05917-6](https://doi.org/10.1038/s41597-025-05917-6).
+
+Brun, J. et al. (2025). Enabling data-driven collaborative and reproducible environmental synthesis science. <i>Methods in Ecology and Evolution, 16</i>(6), 1061–1074. [doi.org/10.1111/2041-210X.70036](https://doi.org/10.1111/2041-210X.70036).
+
+Nigro, K. M. et al. (2025). Co-mast: Harmonized seed production data for woody plants across US long-term research sites. <i>Ecology, 106</i>(1), Article e4463. [doi.org/10.1002/ecy.4463](https://doi.org/10.1002/ecy.4463).
+
+LaMontagne, J. M. et al. (2024). Community Synchrony in Seed Production is Associated With Trait Similarity and Climate Across North America. <i>Ecology Letters, 27</i>(12), Article e14498. [doi.org/10.1111/ele.14498](https://doi.org/10.1111/ele.14498).
+
+
