@@ -145,5 +145,40 @@
     "title": "Selected Code 👾",
     "section": "Collaborative, Reproducible Workflows 🔁",
     "text": "Collaborative, Reproducible Workflows 🔁\n\nEverglades Fire History\nTo investigate fire history patterns in the Florida Everglades as part of the Malone Disturbance Ecology Lab, I scripted a workflow that took raw fire perimeter shapefiles and transformed them into a clean, harmonized shapefile. Then using that shapefile, I derived annual rasters showing the areas that were burned in a particular year. I prepared the metadata for these data products and published them at the Environmental Data Initiative Repository.\nNext, I created custom functions to perform some calculations. I calculated the total number of fires and the time since the last fire using the annual rasters. I also calculated statistics using the harmonized fire perimeter shapefile in order to get the annual total area burned, total wildfire area burned, total prescribed fire area burned, mean fire size, and area/perimeter. To allow others to easily explore this spatiotemporal information, I developed an interactive Shiny web app.\nFinally, my supervisor, Dr. Sparkle Malone, compiled a vegetation shapefile for the Everglades, calculated more summary statistics from my results, and designed visualizations for our publication. After I polished the visualizations, we were able to publish our findings in Scientific Data.\nLinks: GitHub repo, data products, Shiny web app, publication\n\n\nFlux Gradient\nThe Flux Gradient working group had an existing pipeline to download and analyze eddy covariance data for 8 NEON sites, however they requested me to rerun and expand their workflow to include an additional 39 more sites. After I downloaded the latest version of the data, I ran into errors, so I had to debug and edit the scripts accordingly, as there were some peculiarities with a few sites.\nMy debugging later led me to the discovery that the format of the data had changed, which was unsuitable for some parts of the workflow. I communicated this issue to the other members of the group in our meeting and they advised me to redownload a larger version of the dataset to get the necessary columns.\nDespite the small setback, I finished debugging and running the workflow for all 47 sites just in time for the working group’s in-person meeting. Since I did not have the domain knowledge, I had to explain to the group about the issues I ran into whenever I needed them to make a decision on the workflow for me. The teamwork enabled me to seamlessly process around 1 terabyte of data.\nAs our project evolved, our GitHub repository became bloated with everyone’s scripts so to ensure that our work was organized and reproducible, I standardized naming conventions for the main scripts and functions, fixed file paths, formatted scripts for publication, and revamped the README.\nLinks: GitHub repo"
+  },
+  {
+    "objectID": "packages.html",
+    "href": "packages.html",
+    "title": "R Packages",
+    "section": "",
+    "text": "Here are the R Packages that I’ve contributed to!"
+  },
+  {
+    "objectID": "packages.html#era5flux",
+    "href": "packages.html#era5flux",
+    "title": "R Packages",
+    "section": "ERA5Flux",
+    "text": "ERA5Flux\nThe primary objective of this package is to improve the utility of ERA5 data at AmeriFlux site locations. This package comprises of a collection of tools useful for workflows involving ERA5 and AmeriFlux data. It includes functions for downloading ERA5 data based on AmeriFlux sites, formatting the downloaded data to match AmeriFlux standards, merging both datasets together to ensure consistent timestamps, and blending them to create a single gap-filled time series.\nLinks: GitHub repo, package website"
+  },
+  {
+    "objectID": "packages.html#carbonexchangeparameters",
+    "href": "packages.html#carbonexchangeparameters",
+    "title": "R Packages",
+    "section": "CarbonExchangeParameters",
+    "text": "CarbonExchangeParameters\nEcosystem CO2 Flux Partitioning (EC flux partitioning) methods are used to estimate how the total carbon flux between an ecosystem and the atmosphere is divided among different processes, such as photosynthesis (carbon uptake) and respiration (carbon release). These methods are important for understanding the carbon balance of ecosystems.\nThis package contains carbon flux partitioning functions that use daytime net ecosystem exchange (NEE) from tower sites to fit light response curves and nighttime NEE to fit temperature response curves.\nLinks: GitHub repo, package website"
+  },
+  {
+    "objectID": "packages.html#scicomptools",
+    "href": "packages.html#scicomptools",
+    "title": "R Packages",
+    "section": "scicomptools",
+    "text": "scicomptools\nSet of tools to import, summarize, wrangle, and visualize data. These functions were originally written based on the needs of the various synthesis working groups that were supported by the National Center for Ecological Analysis and Synthesis (NCEAS). These tools are meant to be useful inside and outside of the context for which they were designed.\nLinks: GitHub repo, package website, CRAN page"
+  },
+  {
+    "objectID": "packages.html#ltertools",
+    "href": "packages.html#ltertools",
+    "title": "R Packages",
+    "section": "ltertools",
+    "text": "ltertools\nSet of the data science tools created by various members of the Long Term Ecological Research (LTER) community. These functions were initially written largely as standalone operations and have later been aggregated into this package.\nLinks: GitHub repo, package website, CRAN page"
   }
 ]

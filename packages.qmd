@@ -1,0 +1,31 @@
+---
+title: "R Packages"
+---
+
+Here are the R Packages that I've contributed to!
+
+## ERA5Flux
+
+The primary objective of this package is to improve the utility of ERA5 data at AmeriFlux site locations. This package comprises of a collection of tools useful for workflows involving ERA5 and AmeriFlux data. It includes functions for downloading ERA5 data based on AmeriFlux sites, formatting the downloaded data to match AmeriFlux standards, merging both datasets together to ensure consistent timestamps, and blending them to create a single gap-filled time series.
+
+**Links: [GitHub repo](https://github.com/Malone-Disturbance-Ecology-Lab/ERA5Flux), [package website](https://malone-disturbance-ecology-lab.github.io/ERA5Flux/)**
+
+## CarbonExchangeParameters
+
+Ecosystem CO~2~ Flux Partitioning (EC flux partitioning) methods are used to estimate how the total carbon flux between an ecosystem and the atmosphere is divided among different processes, such as photosynthesis (carbon uptake) and respiration (carbon release). These methods are important for understanding the carbon balance of ecosystems.
+
+This package contains carbon flux partitioning functions that use daytime net ecosystem exchange (NEE) from tower sites to fit light response curves and nighttime NEE to fit temperature response curves.
+
+**Links: [GitHub repo](https://github.com/Malone-Disturbance-Ecology-Lab/CarbonExchangeParameters), [package website](https://malone-disturbance-ecology-lab.github.io/CarbonExchangeParameters/)**
+
+## scicomptools
+
+Set of tools to import, summarize, wrangle, and visualize data. These functions were originally written based on the needs of the various synthesis working groups that were supported by the National Center for Ecological Analysis and Synthesis (NCEAS). These tools are meant to be useful inside and outside of the context for which they were designed. 
+
+**Links: [GitHub repo](https://github.com/NCEAS/scicomptools), [package website](https://nceas.github.io/scicomptools/), [CRAN page](https://doi.org/10.32614/CRAN.package.scicomptools)**
+
+## ltertools
+
+Set of the data science tools created by various members of the Long Term Ecological Research (LTER) community. These functions were initially written largely as standalone operations and have later been aggregated into this package.
+
+**Links: [GitHub repo](https://github.com/lter/ltertools), [package website](https://lter.github.io/ltertools/), [CRAN page](https://doi.org/10.32614/CRAN.package.ltertools)**
