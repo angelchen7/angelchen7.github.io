@@ -153,10 +153,27 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#data-wrangling" id="toc-data-wrangling" class="nav-link active" data-scroll-target="#data-wrangling">Data Wrangling 🛠</a></li>
-  <li><a href="#exploratory-graphing" id="toc-exploratory-graphing" class="nav-link" data-scroll-target="#exploratory-graphing">Exploratory Graphing 📈</a></li>
-  <li><a href="#spatial-data" id="toc-spatial-data" class="nav-link" data-scroll-target="#spatial-data">Spatial Data 🌎</a></li>
-  <li><a href="#text-mining" id="toc-text-mining" class="nav-link" data-scroll-target="#text-mining">Text Mining 📑</a></li>
+  <li><a href="#collaborative-reproducible-workflows" id="toc-collaborative-reproducible-workflows" class="nav-link active" data-scroll-target="#collaborative-reproducible-workflows">Collaborative, Reproducible Workflows 🔁</a>
+  <ul class="collapse">
+  <li><a href="#everglades-fire-history" id="toc-everglades-fire-history" class="nav-link" data-scroll-target="#everglades-fire-history">Everglades Fire History</a></li>
+  </ul></li>
+  <li><a href="#data-wrangling" id="toc-data-wrangling" class="nav-link" data-scroll-target="#data-wrangling">Data Wrangling 🛠</a>
+  <ul class="collapse">
+  <li><a href="#marine-consumer-nutrient-dynamics" id="toc-marine-consumer-nutrient-dynamics" class="nav-link" data-scroll-target="#marine-consumer-nutrient-dynamics">Marine Consumer Nutrient Dynamics</a></li>
+  <li><a href="#plant-reproduction" id="toc-plant-reproduction" class="nav-link" data-scroll-target="#plant-reproduction">Plant Reproduction</a></li>
+  </ul></li>
+  <li><a href="#exploratory-graphing" id="toc-exploratory-graphing" class="nav-link" data-scroll-target="#exploratory-graphing">Exploratory Graphing 📈</a>
+  <ul class="collapse">
+  <li><a href="#plant-reproduction-1" id="toc-plant-reproduction-1" class="nav-link" data-scroll-target="#plant-reproduction-1">Plant Reproduction</a></li>
+  </ul></li>
+  <li><a href="#spatial-data" id="toc-spatial-data" class="nav-link" data-scroll-target="#spatial-data">Spatial Data 🌎</a>
+  <ul class="collapse">
+  <li><a href="#silica-export" id="toc-silica-export" class="nav-link" data-scroll-target="#silica-export">Silica Export</a></li>
+  </ul></li>
+  <li><a href="#text-mining" id="toc-text-mining" class="nav-link" data-scroll-target="#text-mining">Text Mining 📑</a>
+  <ul class="collapse">
+  <li><a href="#ecosystem-transitions" id="toc-ecosystem-transitions" class="nav-link" data-scroll-target="#ecosystem-transitions">Ecosystem Transitions</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -182,24 +199,50 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Below are some examples of the work I’ve done for the Long Term Ecological Research (<a href="https://lternet.edu/">LTER</a>) Network <a href="https://lternet.edu/current-working-groups/">synthesis working groups</a>. I get to work on a variety of tasks as a data analyst for the LTER Network Office, which allows me to broaden my flexible skill set.</p>
+<p>Below are some examples of the work I’ve done for the <a href="https://www.malonelab.org/">Malone Disturbance Ecology Lab</a> and the Long Term Ecological Research (<a href="https://lternet.edu/">LTER</a>) Network <a href="https://lternet.edu/current-working-groups/">synthesis working groups</a>. I got to work on a variety of tasks, which allows me to broaden my flexible skill set.</p>
+<section id="collaborative-reproducible-workflows" class="level2">
+<h2 class="anchored" data-anchor-id="collaborative-reproducible-workflows">Collaborative, Reproducible Workflows 🔁</h2>
+<section id="everglades-fire-history" class="level3">
+<h3 class="anchored" data-anchor-id="everglades-fire-history">Everglades Fire History</h3>
+<p>To investigate fire history patterns in the Florida Everglades as part of the Malone Disturbance Ecology Lab, I scripted a workflow that took raw fire perimeter shapefiles and transformed them into a clean, harmonized shapefile. Then using that shapefile, I derived annual rasters showing the areas that were burned in a particular year. I prepared the metadata for these data products and published them on the <a href="edirepository.org">Environmental Data Initiative</a> Repository.</p>
+<p>Next, I created custom functions to perform some calculations. I calculated the total number of fires and the time since the last fire using the annual rasters. I also calculated statistics using the harmonized fire perimeter shapefile in order to get the annual total area burned, total wildfire area burned, total prescribed fire area burned, mean fire size, and area/perimeter. To allow others to easily explore this spatiotemporal information, I developed an interactive Shiny web app.</p>
+<p>Finally, my supervisor, Dr.&nbsp;Sparkle Malone, compiled a vegetation shapefile for the Everglades, calculated more summary statistics from my results, and designed visualizations for our publication. After I polished the visualizations, we were able to publish our findings in <i>Scientific Data</i>.</p>
+<p><strong>Links: <a href="https://github.com/Malone-Disturbance-Ecology-Lab/Everglades-Fire-History">GitHub repo</a>, <a href="https://doi.org/10.6073/pasta/72db80a33574c8ad936673d720c9360f">data products</a>, <a href="https://angelchen.shinyapps.io/ENP_fires/">Shiny web app</a>, <a href="https://doi.org/10.1038/s41597-025-05917-6">publication</a></strong></p>
+</section>
+</section>
 <section id="data-wrangling" class="level2">
 <h2 class="anchored" data-anchor-id="data-wrangling">Data Wrangling 🛠</h2>
-<p>The <a href="https://lternet.edu/working-groups/identifying-environmental-drivers-of-plant-reproduction-across-lter-sites/">Plant Reproduction working group</a> wanted plant trait data to research why some plants produce large amounts of seeds every few years. To assist this group, <a href="https://nceas.github.io/scicomp.github.io/staff.html">my team</a> and I retrieved data from the <a href="https://www.try-db.org/TryWeb/Home.php">TRY Plant Trait Database</a>, which included traits such as plant seed mass, lifespan, flowering season, and seed persistence. Then we wrangled the TRY data so that we can combine it with a larger data set of plant traits that the working group already had. After much wrangling, we refined the integrated master data set to include 56 total variables for over 100 species. This data set was then used for further downstream analyses.</p>
-<p><strong>Links: <a href="https://github.com/NCEAS/scicomptasks/tree/main/wg_plant_repro">GitHub repo</a></strong></p>
+<section id="marine-consumer-nutrient-dynamics" class="level3">
+<h3 class="anchored" data-anchor-id="marine-consumer-nutrient-dynamics">Marine Consumer Nutrient Dynamics</h3>
+<p>The <a href="https://lternet.edu/working-groups/marine-consumer-nutrient-dynamics/">Marine Consumer Nutrient Dynamics group</a> had marine consumer datasets spanning across 8 sites, all varying in format and column names. After much discussion with the group, we designed a workflow where we created a data key to connect the raw column names to the new, standardized column names. Then I worked on a script where I reshaped the raw files and joined them with the data key to automate the column name standardization process for 12 datasets with completely different structures. I also standardized all dates, species names, and filled in missing taxonomic information for each species. This workflow resulted in a harmonized/standardized CSV file containing marine consumer information for over 700 unique species.</p>
+<p><strong>Links: <a href="https://github.com/lter/lterwg-marine-cnd">GitHub repo</a></strong></p>
+</section>
+<section id="plant-reproduction" class="level3">
+<h3 class="anchored" data-anchor-id="plant-reproduction">Plant Reproduction</h3>
+<p>The <a href="https://lternet.edu/working-groups/identifying-environmental-drivers-of-plant-reproduction-across-lter-sites/">Plant Reproduction working group</a> wanted plant trait data to research why some plants produce large amounts of seeds every few years. To assist this group, <a href="https://nceas.github.io/scicomp.github.io/staff.html">my team</a> and I retrieved data from the <a href="https://www.try-db.org/TryWeb/Home.php">TRY Plant Trait Database</a>, which included traits such as plant seed mass, lifespan, flowering season, and seed persistence. Then we wrangled the TRY data so that we can combine it with a larger dataset of plant traits that the working group already had. After much wrangling, we refined the integrated master dataset to include 56 total variables for over 100 species. This dataset was then used for further downstream analyses.</p>
+<p><strong>Links: <a href="https://github.com/NCEAS/scicomptasks/tree/main/lter-network/lter-wg_plant_repro">GitHub repo</a></strong></p>
+</section>
 </section>
 <section id="exploratory-graphing" class="level2">
 <h2 class="anchored" data-anchor-id="exploratory-graphing">Exploratory Graphing 📈</h2>
-<p>The <a href="https://lternet.edu/working-groups/identifying-environmental-drivers-of-plant-reproduction-across-lter-sites/">Plant Reproduction working group</a> requested me to help them explore a potential analysis for one of their manuscripts. They were interested in a time series plot showing the total seed mass production in grams per year at specific plots at a site. I manipulated the columns in the aforementioned integrated master data set to calculate the grams of seed per species per year. Then I graphed the time series, with a separate panel for each plot.</p>
+<section id="plant-reproduction-1" class="level3">
+<h3 class="anchored" data-anchor-id="plant-reproduction-1">Plant Reproduction</h3>
+<p>The <a href="https://lternet.edu/working-groups/identifying-environmental-drivers-of-plant-reproduction-across-lter-sites/">Plant Reproduction working group</a> requested me to help them explore a potential analysis for one of their manuscripts. They were interested in a time series plot showing the total seed mass production in grams per year at specific plots at a site. I manipulated the columns in the aforementioned integrated master dataset to calculate the grams of seed per species per year. Then I graphed the time series, with a separate panel for each plot.</p>
 <p><strong>Links: <a href="https://github.com/NCEAS/scicomptasks/tree/main/wg_plant_repro">GitHub repo</a></strong></p>
+</section>
 </section>
 <section id="spatial-data" class="level2">
 <h2 class="anchored" data-anchor-id="spatial-data">Spatial Data 🌎</h2>
-<p>The <a href="https://lternet.edu/working-groups/from-poles-to-tropics-a-multi-biome-synthesis-investigating-the-controls-on-river-si-exports/">Silica Export working group</a> wanted to investigate drivers of riverine silicon exports and they requested for <a href="https://nceas.github.io/scicomp.github.io/staff.html">my team</a> and I to identify and extract from various spatial data sets. In order to accomplish this, we first searched online for the data sets that best suited our needs. Then we gathered watershed shapefiles and extracted the spatial data within each watershed. Finally, we summarized the extracted values and exported them in a harmonized format that was easy to use for downstream analyses.</p>
-<p><strong>Links: <a href="https://github.com/lter/lterwg-silica-spatial/tree/master">GitHub repo</a></strong></p>
+<section id="silica-export" class="level3">
+<h3 class="anchored" data-anchor-id="silica-export">Silica Export</h3>
+<p>The <a href="https://lternet.edu/working-groups/from-poles-to-tropics-a-multi-biome-synthesis-investigating-the-controls-on-river-si-exports/">Silica Export working group</a> wanted to investigate drivers of riverine silicon exports which included variables like surface air temperature, lithology, precipitation, evapotranspiration, elevation, and net primary production. They requested for <a href="https://nceas.github.io/scicomp.github.io/staff.html">my team</a> and I to identify and this spatiotemporal information for the 228 watersheds that they were interested in. In order to accomplish this, we first searched online for the datasets that best suited our needs. Then we extracted the spatial data for each watershed using various R packages. Finally, we summarized the extracted values and exported them in a harmonized format that was easy to use for downstream analyses.</p>
+<p><strong>Links: <a href="https://github.com/lter/lterwg-silica-spatial">GitHub repo</a></strong></p>
+</section>
 </section>
 <section id="text-mining" class="level2">
 <h2 class="anchored" data-anchor-id="text-mining">Text Mining 📑</h2>
+<section id="ecosystem-transitions" class="level3">
+<h3 class="anchored" data-anchor-id="ecosystem-transitions">Ecosystem Transitions</h3>
 <p>The <a href="https://lternet.edu/working-groups/ecosystem-transitions-increased-variability-and-regime-shifts/">Ecosystem Transitions working group</a> needed to review over 3000 papers in order to prepare a meta-analysis on ecosystem transitions. They split the reading assignments between their group members, but to speed the process along, they requested for me to find a way to quickly decide whether a paper is worth reading or not.</p>
 <p>So I created a script that filters and ranks the abstracts and titles based on positive and negative keywords. The more positive keywords an abstract and its associated title have, the more likely it was for the group to include the full paper in their meta-analysis. On the other hand, if a paper’s abstract/title has more negative keywords, it means that the group will probably not be interested in this paper.</p>
 <p>After discussing with the group, we decided that it would be helpful for the group members to see how many negative keywords were in each paper’s abstract and title. So I added a column to each person’s reading assignment list that shows the count of negative keywords for each abstract and title. That way, they could prioritize reading the abstracts that have the least negative keywords and save time by discarding the ones that have the most negative keywords.</p>
@@ -207,6 +250,7 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Links: <a href="https://github.com/lter/lterwg-transitions/tree/main/Papers_Search">GitHub repo</a></strong></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
