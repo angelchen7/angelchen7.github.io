@@ -156,6 +156,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#collaborative-reproducible-workflows" id="toc-collaborative-reproducible-workflows" class="nav-link active" data-scroll-target="#collaborative-reproducible-workflows">Collaborative, Reproducible Workflows 🔁</a>
   <ul class="collapse">
   <li><a href="#everglades-fire-history" id="toc-everglades-fire-history" class="nav-link" data-scroll-target="#everglades-fire-history">Everglades Fire History</a></li>
+  <li><a href="#flux-gradient" id="toc-flux-gradient" class="nav-link" data-scroll-target="#flux-gradient">Flux Gradient</a></li>
   </ul></li>
   <li><a href="#data-wrangling" id="toc-data-wrangling" class="nav-link" data-scroll-target="#data-wrangling">Data Wrangling 🛠</a>
   <ul class="collapse">
@@ -209,12 +210,20 @@ ul.task-list li input[type="checkbox"] {
 <p>Finally, my supervisor, Dr.&nbsp;Sparkle Malone, compiled a vegetation shapefile for the Everglades, calculated more summary statistics from my results, and designed visualizations for our publication. After I polished the visualizations, we were able to publish our findings in <i>Scientific Data</i>.</p>
 <p><strong>Links: <a href="https://github.com/Malone-Disturbance-Ecology-Lab/Everglades-Fire-History">GitHub repo</a>, <a href="https://doi.org/10.6073/pasta/72db80a33574c8ad936673d720c9360f">data products</a>, <a href="https://angelchen.shinyapps.io/ENP_fires/">Shiny web app</a>, <a href="https://doi.org/10.1038/s41597-025-05917-6">publication</a></strong></p>
 </section>
+<section id="flux-gradient" class="level3">
+<h3 class="anchored" data-anchor-id="flux-gradient">Flux Gradient</h3>
+<p>The <a href="https://lternet.edu/working-groups/the-flux-gradient-project/">Flux Gradient working group</a> had an existing pipeline to download and analyze eddy covariance data for 8 <a href="https://www.neonscience.org/">NEON</a> sites, however they requested me to rerun and expand their workflow to include an additional 39 more sites. After I downloaded the latest version of the data, I ran into errors, so I had to debug and edit the scripts accordingly, as there were some peculiarities with a few sites.</p>
+<p>My debugging later led me to the discovery that the format of the data had changed, which was unsuitable for some parts of the workflow. I communicated this issue to the other members of the group in our meeting and they advised me to redownload a larger version of the dataset to get the necessary columns.</p>
+<p>Despite the small setback, I finished debugging and running the workflow for all 47 sites just in time for the working group’s in-person meeting. Since I did not have the domain knowledge, I had to explain to the group about the issues I ran into whenever I needed them to make a decision on the workflow for me. The teamwork enabled me to seamlessly process around 1 terabyte of data.</p>
+<p>As our project evolved, our GitHub repository became bloated with everyone’s scripts so to ensure that our work was organized and reproducible, I standardized naming conventions for the main scripts and functions, fixed file paths, formatted scripts for publication, and revamped the README.</p>
+<p><strong>Links: <a href="https://github.com/lter/lterwg-flux-gradient">GitHub repo</a></strong></p>
+</section>
 </section>
 <section id="data-wrangling" class="level2">
 <h2 class="anchored" data-anchor-id="data-wrangling">Data Wrangling 🛠</h2>
 <section id="marine-consumer-nutrient-dynamics" class="level3">
 <h3 class="anchored" data-anchor-id="marine-consumer-nutrient-dynamics">Marine Consumer Nutrient Dynamics</h3>
-<p>The <a href="https://lternet.edu/working-groups/marine-consumer-nutrient-dynamics/">Marine Consumer Nutrient Dynamics group</a> had marine consumer datasets spanning across 8 sites, all varying in format and column names. After much discussion with the group, we designed a workflow where we created a data key to connect the raw column names to the new, standardized column names. Then I worked on a script where I reshaped the raw files and joined them with the data key to automate the column name standardization process for 12 datasets with completely different structures. I also standardized all dates, species names, and filled in missing taxonomic information for each species. This workflow resulted in a harmonized/standardized CSV file containing marine consumer information for over 700 unique species.</p>
+<p>The <a href="https://lternet.edu/working-groups/marine-consumer-nutrient-dynamics/">Marine Consumer Nutrient Dynamics working group</a> had marine consumer datasets spanning across 8 sites, all varying in format and column names. After much discussion with the group, we designed a workflow where we created a data key to connect the raw column names to the new, standardized column names. Then I worked on a script where I reshaped the raw files and joined them with the data key to automate the column name standardization process for 12 datasets with completely different structures. I also standardized all dates, species names, and filled in missing taxonomic information for each species. This workflow resulted in a harmonized/standardized CSV file containing marine consumer information for over 700 unique species.</p>
 <p><strong>Links: <a href="https://github.com/lter/lterwg-marine-cnd">GitHub repo</a></strong></p>
 </section>
 <section id="plant-reproduction" class="level3">
