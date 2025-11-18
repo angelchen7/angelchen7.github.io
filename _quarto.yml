@@ -17,9 +17,12 @@ website:
         text: "Home 🏠"
       - about.qmd
       - selected.qmd
-      - workshops.qmd
       - publications.qmd
-      - projects.qmd
+      - text: "Other Products"
+        menu: 
+          - workshops.qmd
+          - packages.qmd
+          - projects.qmd
     right:
       - icon: envelope-fill
         href: mailto:angel777chen@gmail.com
