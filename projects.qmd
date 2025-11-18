@@ -18,7 +18,7 @@ Large, open-access biological datasets, like those hosted by Global Biotic Inter
 
 Through our exploration of GloBI, we found several sources of bias, including the limitations of community data collection and scarcity of rare bees. We found a strong positive correlation between the number of sources (i.e. literature, natural history collection) citing the interactions of a bee species and the number of plant families visited by that same bee species. We also found that while expert classification of bee specialists visit fewer plant families than other bees in the GloBI dataset, there are clusters of species that diverge from the expected trend. Our trained models suggested that binary classification was not completely effective in determining the label of "specialist" or "non-specialist" for all bee species. These findings indicate that observer bias, on a global scale, can skew our definition of resource specialization or generalization. Moreover, large, open-access datasets like GloBI can change our previous understanding of biological interactions and systems by accessing novel data sources and aggregation.
 
-Links: [project report](https://github.com/angelchen7/angelchen7.github.io/blob/main/files/CCBER_Final_Report.pdf) and [ESA 2021 meeting poster](https://escholarship.org/uc/item/33b2t2bq)
+**Links: [project report](https://github.com/angelchen7/angelchen7.github.io/blob/main/files/CCBER_Final_Report.pdf) and [ESA 2021 meeting poster](https://escholarship.org/uc/item/33b2t2bq)**
 
 ## Renewable Energy ☀️
 
