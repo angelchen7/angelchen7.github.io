@@ -100,42 +100,42 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Undergrad Projects",
+    "title": "Undergrad Projects 👩‍🎓",
     "section": "",
     "text": "Here are some projects I’ve worked on as an undergrad in UC Santa Barbara!"
   },
   {
     "objectID": "projects.html#credit-card",
     "href": "projects.html#credit-card",
-    "title": "Undergrad Projects",
+    "title": "Undergrad Projects 👩‍🎓",
     "section": "Credit Card 💳",
     "text": "Credit Card 💳\nIn this project, I worked with my team to predict whether the client will default on credit card payments based on their gender, education, marital status, age, amount of the given credit, history of past payment, amount of bill statements and amount of previous payments.\nWe built the pipeline to preprocess the data and construct models. We applied several feature transformers such as VectorAssembler and StandardScaler from the PySpark ML package. The four models we developed were Logistic Regression, Decision Tree, Random Forest and Support Vector Machine. We evaluated our models’ performance using the metrics derived from the confusion matrix, and then finally chose Support Vector Machine as our champion model because it has the best accuracy of 0.8065.\nLinks: project report and GitHub repo"
   },
   {
     "objectID": "projects.html#bees",
     "href": "projects.html#bees",
-    "title": "Undergrad Projects",
+    "title": "Undergrad Projects 👩‍🎓",
     "section": "Bees 🐝",
     "text": "Bees 🐝\nLarge, open-access biological datasets, like those hosted by Global Biotic Interactions (GloBI), have become increasingly accessible due to greater data collection, compilation, and storage. These databases serve to better inform our understanding of species occurrences, interactions, and ecosystem structure, broadly. In this work, we leverage GloBI data to better understand patterns of pollination, a biologically and economically essential biotic interaction between plants and pollinators. Specifically, we sought to develop a better understanding of bee specialization of pollen, an evolutionary trait in bees that underscores the stability and structure of pollinator interaction networks. We compared GloBI and expert-compiled data to better understand patterns in resource specialization. We then trained various machine learning models (Decision Trees, Support Vector Machine, Logistic Regression) to create a defining line between specialist and non-specialist bees. In addition, data transformation was also useful for more clearly differentiating our specialization groups.\nThrough our exploration of GloBI, we found several sources of bias, including the limitations of community data collection and scarcity of rare bees. We found a strong positive correlation between the number of sources (i.e. literature, natural history collection) citing the interactions of a bee species and the number of plant families visited by that same bee species. We also found that while expert classification of bee specialists visit fewer plant families than other bees in the GloBI dataset, there are clusters of species that diverge from the expected trend. Our trained models suggested that binary classification was not completely effective in determining the label of “specialist” or “non-specialist” for all bee species. These findings indicate that observer bias, on a global scale, can skew our definition of resource specialization or generalization. Moreover, large, open-access datasets like GloBI can change our previous understanding of biological interactions and systems by accessing novel data sources and aggregation.\nLinks: project report and ESA 2021 meeting poster"
   },
   {
     "objectID": "projects.html#renewable-energy",
     "href": "projects.html#renewable-energy",
-    "title": "Undergrad Projects",
+    "title": "Undergrad Projects 👩‍🎓",
     "section": "Renewable Energy ☀️",
     "text": "Renewable Energy ☀️\nRenewable energy consumption has been increasing in the United States over the past 20 years as people sought alternatives to fossil fuels. Sources of renewable energy include hydroelectric power, geothermal, solar, wind, and biomass. In this project, I investigate the total monthly consumption of renewable energy in the United States from January 2001 to January 2020 and try to figure out a model that can be used to forecast how much renewable energy will be used in the future.\nIn order to achieve this goal, I used the Box-Jenkins methodology. This method involves data transformation, differencing, examining autocorrelation and partial autocorrelation functions, model parameter estimation, checking for stationarity and invertibility, and diagnostic checking. To summarize my results, I came up with three plausible models for the data, but ended up with two satisfactory models that passed all checking. I concluded that one model was better than the other because it had lower AICc, an information criterion, and used it to predict renewable energy consumption for February 2019 to January 2020. My predictions followed the actual data values well, meaning that my model can be used for future forecasting, and it also supports the conclusion that renewable energy consumption is on an upward trend.\nLinks: project report and GitHub repo"
   },
   {
     "objectID": "projects.html#spam-emails",
     "href": "projects.html#spam-emails",
-    "title": "Undergrad Projects",
+    "title": "Undergrad Projects 👩‍🎓",
     "section": "Spam Emails 📧",
     "text": "Spam Emails 📧\nCertain emails are automatically considered spam by algorithms in email systems. These algorithms track patterns of certain keywords, which allows them to classify spam and non-spam emails. This dataset, spambase.data, allows us to explore the connection between the frequency of keywords and whether an email is classified as spam. If such a connection exists, it would be more convenient for email users because their spam emails will be filtered out before reaching them.\nMy team’s question: Is there a relationship between the predictors (frequency of keywords/characters, length of sequences, number of capital letters) and whether an email is considered spam or not? If so, which predictors affect the response?\nLinks: project report and GitHub repo"
   },
   {
     "objectID": "projects.html#fossil-fuel",
     "href": "projects.html#fossil-fuel",
-    "title": "Undergrad Projects",
+    "title": "Undergrad Projects 👩‍🎓",
     "section": "Fossil Fuel 🦖",
     "text": "Fossil Fuel 🦖\nAs part of the UCSB Data Science Fellowship Tutoring Committee under Professor Yekaterina Kharitonova’s guidance, I created a lab project for undergrads in her Fall 2020 Introduction to Data Science 1 course. This lab project was made for the undergrads to practice their data analysis skills in Python. They were instructed to investigate how the COVID-19 lockdown affected monthly fossil fuel consumption in the United States from January 2001 to July 2020.\nLink: GitHub repo"
   },
@@ -149,35 +149,35 @@
   {
     "objectID": "packages.html",
     "href": "packages.html",
-    "title": "R Packages",
+    "title": "R Packages 📦",
     "section": "",
     "text": "Here are the R Packages that I’ve contributed to!"
   },
   {
     "objectID": "packages.html#era5flux",
     "href": "packages.html#era5flux",
-    "title": "R Packages",
+    "title": "R Packages 📦",
     "section": "ERA5Flux",
     "text": "ERA5Flux\nThe primary objective of this package is to improve the utility of ERA5 data at AmeriFlux site locations. This package comprises of a collection of tools useful for workflows involving ERA5 and AmeriFlux data. It includes functions for downloading ERA5 data based on AmeriFlux sites, formatting the downloaded data to match AmeriFlux standards, merging both datasets together to ensure consistent timestamps, and blending them to create a single gap-filled time series.\nLinks: GitHub repo, package website"
   },
   {
     "objectID": "packages.html#carbonexchangeparameters",
     "href": "packages.html#carbonexchangeparameters",
-    "title": "R Packages",
+    "title": "R Packages 📦",
     "section": "CarbonExchangeParameters",
     "text": "CarbonExchangeParameters\nEcosystem CO2 Flux Partitioning (EC flux partitioning) methods are used to estimate how the total carbon flux between an ecosystem and the atmosphere is divided among different processes, such as photosynthesis (carbon uptake) and respiration (carbon release). These methods are important for understanding the carbon balance of ecosystems.\nThis package contains carbon flux partitioning functions that use daytime net ecosystem exchange (NEE) from tower sites to fit light response curves and nighttime NEE to fit temperature response curves.\nLinks: GitHub repo, package website"
   },
   {
     "objectID": "packages.html#scicomptools",
     "href": "packages.html#scicomptools",
-    "title": "R Packages",
+    "title": "R Packages 📦",
     "section": "scicomptools",
     "text": "scicomptools\nSet of tools to import, summarize, wrangle, and visualize data. These functions were originally written based on the needs of the various synthesis working groups that were supported by the National Center for Ecological Analysis and Synthesis (NCEAS). These tools are meant to be useful inside and outside of the context for which they were designed.\nLinks: GitHub repo, package website, CRAN page"
   },
   {
     "objectID": "packages.html#ltertools",
     "href": "packages.html#ltertools",
-    "title": "R Packages",
+    "title": "R Packages 📦",
     "section": "ltertools",
     "text": "ltertools\nSet of the data science tools created by various members of the Long Term Ecological Research (LTER) community. These functions were initially written largely as standalone operations and have later been aggregated into this package.\nLinks: GitHub repo, package website, CRAN page"
   }
