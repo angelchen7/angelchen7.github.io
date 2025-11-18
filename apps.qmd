@@ -1,0 +1,21 @@
+---
+title: "Web Apps 🌐"
+---
+
+I created these apps to provide visualizations that are easily accessible to a broader audience. Feel free to browse around! These apps also have an associated publication that gives more context on the research background.
+
+## White Pine Blister Rust
+
+[![](images/wpbr.png){width=100%}](https://angelchen.shinyapps.io/WPBR/)
+
+Check out the probability of white pine blister rust for high-elevation five-needle pine species from 1980 to 2023.
+
+**Links: [app](https://angelchen.shinyapps.io/WPBR/), [associated publication](https://doi.org/10.1038/s41597-025-05382-1)**
+
+## Fire in the Everglades
+
+[![](images/fires.png){width=100%}](https://angelchen.shinyapps.io/ENP_fires/)
+
+Explore the total number of fires and years since the last fire across different ecosystems in the Florida Everglades from 1978 to 2023. 
+
+**Links: [app](https://angelchen.shinyapps.io/ENP_fires/), [associated publication](https://doi.org/10.1038/s41597-025-05917-6)**

@@ -21,6 +21,7 @@ website:
       - text: "Other Products"
         menu: 
           - packages.qmd
+          - apps.qmd
           - workshops.qmd
           - projects.qmd
     right:

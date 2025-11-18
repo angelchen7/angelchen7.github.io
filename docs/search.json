@@ -28,74 +28,25 @@
     "text": "Thanks for visiting my page! My name is Angel and my interest in data science, open science, and reproducible workflows started from my days as a student at the University of California, Santa Barbara! Feel free to meander on this website to explore some examples of my work.\nCurrently, I work as a data scientist at the Malone Disturbance Ecology Lab, focusing on scripting reproducible workflows to clean and analyze diverse data sources, as well as providing technical support to my lab members. I also develop web apps and R packages for the lab along the way!\nPreviously, I worked as a data analyst at the National Center for Ecological Analysis and Synthesis (NCEAS), supporting the Long Term Ecological Research (LTER) Network synthesis working groups. I helped the working groups develop reproducible workflows to wrangle, harmonize, analyze, and visualize ecological datasets. I also hosted workshops for them.\nBefore joining the LTER, I was a data curator for NCEAS Arctic Data Center. I created metadata records using Ecological Metadata Language (EML) and archived ecological datasets from research projects focused in the Arctic. Ensuring that the metadata is complete is a crucial part of making the data finable, accessible, interoperable, and reusable by others in the future.\nIn my spare time, I like to look at and admire birds. My favorite birds include rock doves and mourning doves. Here are some pictures I’ve taken over the years:\n\n\n\nA pigeon flaps open its wings to balance itself on my hand, Golden Gate Park, San Francisco\n\n\n\n\n\nA pigeon grabs some millet from my hand, Golden Gate Park, San Francisco\n\n\n\n\n\nA crested duck looks closely at the ground, Golden Gate Park, San Francisco\n\n\n\n\n\nA female duck with its ducklings, Golden Gate Park, San Francisco\n\n\n\n\n\nA flock of pigeons gathers around a pile of rice, Chinatown, San Francisco\n\n\n\n\n\nA collared dove stops by my yard, San Francisco"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Angel Chen",
+    "objectID": "apps.html",
+    "href": "apps.html",
+    "title": "Web Apps 🌐",
     "section": "",
-    "text": "Hi, I’m Angel Chen! Welcome to my personal website ✨\n\n \n  \n   \n  \n    \n     Email\n  \n  \n    \n     CV\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n\n\n\nExperience\n\nNov 2024 – Present: Data Scientist | Malone Disturbance Ecology Lab\nFeb 2022 – Oct 2024: Data Analyst | National Center for Ecological Analysis and Synthesis (NCEAS)\nOct 2019 – Feb 2022: Data Curator | Arctic Data Center (ADC)\n\n\n\nEducation\n\n2021: Bachelor of Science in Statistics & Data Science | University of California, Santa Barbara\n\n\n\nInterests\n\nOpen science\nReproducible workflows\nBirds\nFashion"
+    "text": "I created these apps to provide visualizations that are easily accessible to a broader audience. Feel free to browse around! These apps also have an associated publication that gives more context on the research background."
   },
   {
-    "objectID": "workshops.html",
-    "href": "workshops.html",
-    "title": "Workshops 🧰",
-    "section": "",
-    "text": "When I was part of the Long Term Ecological Research Network Office (LNO), I helped create some workshops in order to support our synthesis working groups. My colleagues and I have hosted these workshops numerous times on an as-needed basis for these groups."
+    "objectID": "apps.html#white-pine-blister-rust",
+    "href": "apps.html#white-pine-blister-rust",
+    "title": "Web Apps 🌐",
+    "section": "White Pine Blister Rust",
+    "text": "White Pine Blister Rust\n\nCheck out the probability of white pine blister rust for high-elevation five-needle pine species from 1980 to 2023.\nLinks: app, associated publication"
   },
   {
-    "objectID": "workshops.html#collaborative-coding-with-github",
-    "href": "workshops.html#collaborative-coding-with-github",
-    "title": "Workshops 🧰",
-    "section": "Collaborative Coding with GitHub",
-    "text": "Collaborative Coding with GitHub\n\nIn synthesis science, collaboration on code products is often integral to the productivity of the group. However, learning to use the software and graphical user interfaces that support this kind of teamwork can be a significant hurdle for teams that are already experts in their subject areas. This workshop is aimed at helping participants gain an understanding of the fundamental purpose and functioning of “version control” systems–specifically GitHub–to help teams more effectively code collaboratively.\nLink: workshop website"
-  },
-  {
-    "objectID": "workshops.html#coding-in-the-tidyverse",
-    "href": "workshops.html#coding-in-the-tidyverse",
-    "title": "Workshops 🧰",
-    "section": "Coding in the tidyverse",
-    "text": "Coding in the tidyverse\n\nFor teams that code using the R programming language, the most familiar tools are often part of “base R” meaning that those functions and packages come pre-loaded when R is installed. Relatively recently the tidyverse has emerged as a comprehensive suite of packages that can complement base R or serve as an alternative for some tasks. This includes packages like dplyr and tidyr as well as the perhaps infamous pipe operator (%&gt;%) among many other tools. This workshop is aimed at helping participants use the tidyverse equivalents of fundamental data wrangling tasks that learners may be used to performing with base R.\nLink: workshop website"
-  },
-  {
-    "objectID": "selected.html",
-    "href": "selected.html",
-    "title": "Selected Code 👾",
-    "section": "",
-    "text": "Below are some examples of the work I’ve done for the Malone Disturbance Ecology Lab and the Long Term Ecological Research (LTER) Network synthesis working groups. I got to work on a variety of tasks, which allows me to broaden my flexible skill set."
-  },
-  {
-    "objectID": "selected.html#collaborative-reproducible-workflows",
-    "href": "selected.html#collaborative-reproducible-workflows",
-    "title": "Selected Code 👾",
-    "section": "Collaborative, Reproducible Workflows 🔁",
-    "text": "Collaborative, Reproducible Workflows 🔁\n\nEverglades Fire History\nTo investigate fire history patterns in the Florida Everglades as part of the Malone Disturbance Ecology Lab, I scripted a workflow that took raw fire perimeter shapefiles and transformed them into a clean, harmonized shapefile. Then using that shapefile, I derived annual rasters showing the areas that were burned in a particular year. I prepared the metadata for these data products and published them at the Environmental Data Initiative Repository.\nNext, I created custom functions to perform some calculations. I calculated the total number of fires and the time since the last fire using the annual rasters. I also calculated statistics using the harmonized fire perimeter shapefile in order to get the annual total area burned, total wildfire area burned, total prescribed fire area burned, mean fire size, and area/perimeter. To allow others to easily explore this spatiotemporal information, I developed an interactive Shiny web app.\nFinally, my supervisor, Dr. Sparkle Malone, compiled a vegetation shapefile for the Everglades, calculated more summary statistics from my results, and designed visualizations for our publication. After I polished the visualizations, we were able to publish our findings in Scientific Data.\nLinks: GitHub repo, data products, Shiny web app, publication\n\n\nFlux Gradient\nThe Flux Gradient working group had an existing pipeline to download and analyze eddy covariance data for 8 NEON sites, however they requested me to rerun and expand their workflow to include an additional 39 more sites. After I downloaded the latest version of the data, I ran into errors, so I had to debug and edit the scripts accordingly, as there were some peculiarities with a few sites.\nMy debugging later led me to the discovery that the format of the data had changed, which was unsuitable for some parts of the workflow. I communicated this issue to the other members of the group in our meeting and they advised me to redownload a larger version of the dataset to get the necessary columns.\nDespite the small setback, I finished debugging and running the workflow for all 47 sites just in time for the working group’s in-person meeting. Since I did not have the domain knowledge, I had to explain to the group about the issues I ran into whenever I needed them to make a judgment call on the workflow for me. The teamwork enabled me to seamlessly process around 1 terabyte of data.\nAs our project evolved, our GitHub repository became bloated with everyone’s scripts so to ensure that our work was organized and reproducible, I standardized naming conventions for the main scripts and functions, fixed file paths, formatted scripts for publication, and revamped the README.\nLinks: GitHub repo"
-  },
-  {
-    "objectID": "selected.html#data-wrangling",
-    "href": "selected.html#data-wrangling",
-    "title": "Selected Code 👾",
-    "section": "Data Wrangling 🛠",
-    "text": "Data Wrangling 🛠\n\nMarine Consumer Nutrient Dynamics\nThe Marine Consumer Nutrient Dynamics working group had marine consumer datasets spanning across 8 sites, all varying in format and column names. After much discussion with the group, we designed a workflow where we created a data key to connect the raw column names to the new, standardized column names. Then I worked on a script where I reshaped the raw files and joined them with the data key to automate the column name standardization process for 12 datasets with completely different structures. I also standardized all dates, species names, and filled in missing taxonomic information for each species. This workflow resulted in a harmonized/standardized CSV file containing marine consumer information for over 700 unique species, which has been published at the Environmental Data Initiative Repository.\nLinks: GitHub repo, data product\n\n\nPlant Reproduction\nThe Plant Reproduction working group wanted plant trait data to research why some plants produce large amounts of seeds every few years. To assist this group, my team and I retrieved data from the TRY Plant Trait Database, which included traits such as plant seed mass, lifespan, flowering season, and seed persistence. Then we wrangled the TRY data so that we can combine it with a larger dataset of plant traits that the working group already had. After much wrangling, we refined the integrated master dataset to include 56 total variables for over 100 species. This dataset was then used for further downstream analyses.\nLinks: GitHub repo"
-  },
-  {
-    "objectID": "selected.html#exploratory-graphing",
-    "href": "selected.html#exploratory-graphing",
-    "title": "Selected Code 👾",
-    "section": "Exploratory Graphing 📈",
-    "text": "Exploratory Graphing 📈\n\nPlant Reproduction\nThe Plant Reproduction working group requested me to help them explore a potential analysis for one of their manuscripts. They were interested in a time series plot showing the total seed mass production in grams per year at specific plots at a site. I manipulated the columns in the aforementioned integrated master dataset to calculate the grams of seed per species per year. Then I graphed the time series, with a separate panel for each plot.\nLinks: GitHub repo"
-  },
-  {
-    "objectID": "selected.html#spatial-data",
-    "href": "selected.html#spatial-data",
-    "title": "Selected Code 👾",
-    "section": "Spatial Data 🌎",
-    "text": "Spatial Data 🌎\n\nSilica Export\nThe Silica Export working group wanted to investigate drivers of riverine silicon exports which included variables like surface air temperature, lithology, precipitation, evapotranspiration, elevation, and net primary production. They requested for my team and I to identify and this spatiotemporal information for the 228 watersheds that they were interested in. In order to accomplish this, we first searched online for the datasets that best suited our needs. Then we extracted the spatial data for each watershed using various R packages. Finally, we summarized the extracted values and exported them in a harmonized format that was easy to use for downstream analyses.\nLinks: GitHub repo"
-  },
-  {
-    "objectID": "selected.html#text-mining",
-    "href": "selected.html#text-mining",
-    "title": "Selected Code 👾",
-    "section": "Text Mining 📑",
-    "text": "Text Mining 📑\n\nEcosystem Transitions\nThe Ecosystem Transitions working group needed to review over 3000 papers in order to prepare a meta-analysis on ecosystem transitions. They split the reading assignments between their group members, but to speed the process along, they requested for me to find a way to quickly decide whether a paper is worth reading or not.\nSo I created a script that filters and ranks the abstracts and titles based on positive and negative keywords. The more positive keywords an abstract and its associated title have, the more likely it was for the group to include the full paper in their meta-analysis. On the other hand, if a paper’s abstract/title has more negative keywords, it means that the group will probably not be interested in this paper.\nAfter discussing with the group, we decided that it would be helpful for the group members to see how many negative keywords were in each paper’s abstract and title. So I added a column to each person’s reading assignment list that shows the count of negative keywords for each abstract and title. That way, they could prioritize reading the abstracts that have the least negative keywords and save time by discarding the ones that have the most negative keywords.\nIn the end, the group was able to use my work to decide on the 700 or so papers that will be included in round 2 of the meta-analysis.\nLinks: GitHub repo"
+    "objectID": "apps.html#fire-in-the-everglades",
+    "href": "apps.html#fire-in-the-everglades",
+    "title": "Web Apps 🌐",
+    "section": "Fire in the Everglades",
+    "text": "Fire in the Everglades\n\nExplore the total number of fires and years since the last fire across different ecosystems in the Florida Everglades from 1978 to 2023.\nLinks: app, associated publication"
   },
   {
     "objectID": "projects.html",
@@ -138,6 +89,76 @@
     "title": "Undergrad Projects 👩‍🎓",
     "section": "Fossil Fuel 🦖",
     "text": "Fossil Fuel 🦖\nAs part of the UCSB Data Science Fellowship Tutoring Committee under Professor Yekaterina Kharitonova’s guidance, I created a lab project for undergrads in her Fall 2020 Introduction to Data Science 1 course. This lab project was made for the undergrads to practice their data analysis skills in Python. They were instructed to investigate how the COVID-19 lockdown affected monthly fossil fuel consumption in the United States from January 2001 to July 2020.\nLink: GitHub repo"
+  },
+  {
+    "objectID": "selected.html",
+    "href": "selected.html",
+    "title": "Selected Code 👾",
+    "section": "",
+    "text": "Below are some examples of the work I’ve done for the Malone Disturbance Ecology Lab and the Long Term Ecological Research (LTER) Network synthesis working groups. I got to work on a variety of tasks, which allows me to broaden my flexible skill set."
+  },
+  {
+    "objectID": "selected.html#collaborative-reproducible-workflows",
+    "href": "selected.html#collaborative-reproducible-workflows",
+    "title": "Selected Code 👾",
+    "section": "Collaborative, Reproducible Workflows 🔁",
+    "text": "Collaborative, Reproducible Workflows 🔁\n\nEverglades Fire History\nTo investigate fire history patterns in the Florida Everglades as part of the Malone Disturbance Ecology Lab, I scripted a workflow that took raw fire perimeter shapefiles and transformed them into a clean, harmonized shapefile. Then using that shapefile, I derived annual rasters showing the areas that were burned in a particular year. I prepared the metadata for these data products and published them at the Environmental Data Initiative Repository.\nNext, I created custom functions to perform some calculations. I calculated the total number of fires and the time since the last fire using the annual rasters. I also calculated statistics using the harmonized fire perimeter shapefile in order to get the annual total area burned, total wildfire area burned, total prescribed fire area burned, mean fire size, and area/perimeter. To allow others to easily explore this spatiotemporal information, I developed an interactive Shiny web app.\nFinally, my supervisor, Dr. Sparkle Malone, compiled a vegetation shapefile for the Everglades, calculated more summary statistics from my results, and designed visualizations for our publication. After I polished the visualizations, we were able to publish our findings in Scientific Data.\nLinks: GitHub repo, data products, Shiny web app, publication\n\n\nFlux Gradient\nThe Flux Gradient working group had an existing pipeline to download and analyze eddy covariance data for 8 NEON sites, however they requested me to rerun and expand their workflow to include an additional 39 more sites. After I downloaded the latest version of the data, I ran into errors, so I had to debug and edit the scripts accordingly, as there were some peculiarities with a few sites.\nMy debugging later led me to the discovery that the format of the data had changed, which was unsuitable for some parts of the workflow. I communicated this issue to the other members of the group in our meeting and they advised me to redownload a larger version of the dataset to get the necessary columns.\nDespite the small setback, I finished debugging and running the workflow for all 47 sites just in time for the working group’s in-person meeting. Since I did not have the domain knowledge, I had to explain to the group about the issues I ran into whenever I needed them to make a judgment call on the workflow for me. The teamwork enabled me to seamlessly process around 1 terabyte of data.\nAs our project evolved, our GitHub repository became bloated with everyone’s scripts so to ensure that our work was organized and reproducible, I standardized naming conventions for the main scripts and functions, fixed file paths, formatted scripts for publication, and revamped the README.\nLinks: GitHub repo"
+  },
+  {
+    "objectID": "selected.html#data-wrangling",
+    "href": "selected.html#data-wrangling",
+    "title": "Selected Code 👾",
+    "section": "Data Wrangling 🛠",
+    "text": "Data Wrangling 🛠\n\nMarine Consumer Nutrient Dynamics\nThe Marine Consumer Nutrient Dynamics working group had marine consumer datasets spanning across 8 sites, all varying in format and column names. After much discussion with the group, we designed a workflow where we created a data key to connect the raw column names to the new, standardized column names. Then I worked on a script where I reshaped the raw files and joined them with the data key to automate the column name standardization process for 12 datasets with completely different structures. I also standardized all dates, species names, and filled in missing taxonomic information for each species. This workflow resulted in a harmonized/standardized CSV file containing marine consumer information for over 700 unique species, which has been published at the Environmental Data Initiative Repository.\nLinks: GitHub repo, data product\n\n\nPlant Reproduction\nThe Plant Reproduction working group wanted plant trait data to research why some plants produce large amounts of seeds every few years. To assist this group, my team and I retrieved data from the TRY Plant Trait Database, which included traits such as plant seed mass, lifespan, flowering season, and seed persistence. Then we wrangled the TRY data so that we can combine it with a larger dataset of plant traits that the working group already had. After much wrangling, we refined the integrated master dataset to include 56 total variables for over 100 species. This dataset was then used for further downstream analyses.\nLinks: GitHub repo"
+  },
+  {
+    "objectID": "selected.html#spatial-data",
+    "href": "selected.html#spatial-data",
+    "title": "Selected Code 👾",
+    "section": "Spatial Data 🌎",
+    "text": "Spatial Data 🌎\n\nSilica Export\nThe Silica Export working group wanted to investigate drivers of riverine silicon exports which included variables like surface air temperature, lithology, precipitation, evapotranspiration, elevation, and net primary production. They requested for my team and I to identify and this spatiotemporal information for the 228 watersheds that they were interested in. In order to accomplish this, we first searched online for the datasets that best suited our needs. Then we extracted the spatial data for each watershed using various R packages. Finally, we summarized the extracted values and exported them in a harmonized format that was easy to use for downstream analyses.\nLinks: GitHub repo"
+  },
+  {
+    "objectID": "selected.html#text-mining",
+    "href": "selected.html#text-mining",
+    "title": "Selected Code 👾",
+    "section": "Text Mining 📑",
+    "text": "Text Mining 📑\n\nEcosystem Transitions\nThe Ecosystem Transitions working group needed to review over 3000 papers in order to prepare a meta-analysis on ecosystem transitions. They split the reading assignments between their group members, but to speed the process along, they requested for me to find a way to quickly decide whether a paper is worth reading or not.\nSo I created a script that filters and ranks the abstracts and titles based on positive and negative keywords. The more positive keywords an abstract and its associated title have, the more likely it was for the group to include the full paper in their meta-analysis. On the other hand, if a paper’s abstract/title has more negative keywords, it means that the group will probably not be interested in this paper.\nAfter discussing with the group, we decided that it would be helpful for the group members to see how many negative keywords were in each paper’s abstract and title. So I added a column to each person’s reading assignment list that shows the count of negative keywords for each abstract and title. That way, they could prioritize reading the abstracts that have the least negative keywords and save time by discarding the ones that have the most negative keywords.\nIn the end, the group was able to use my work to decide on the 700 or so papers that will be included in round 2 of the meta-analysis.\nLinks: GitHub repo"
+  },
+  {
+    "objectID": "selected.html#exploratory-graphing",
+    "href": "selected.html#exploratory-graphing",
+    "title": "Selected Code 👾",
+    "section": "Exploratory Graphing 📈",
+    "text": "Exploratory Graphing 📈\n\nPlant Reproduction\nThe Plant Reproduction working group requested me to help them explore a potential analysis for one of their manuscripts. They were interested in a time series plot showing the total seed mass production in grams per year at specific plots at a site. I manipulated the columns in the aforementioned integrated master dataset to calculate the grams of seed per species per year. Then I graphed the time series, with a separate panel for each plot.\nLinks: GitHub repo"
+  },
+  {
+    "objectID": "workshops.html",
+    "href": "workshops.html",
+    "title": "Workshops 🧰",
+    "section": "",
+    "text": "When I was part of the Long Term Ecological Research Network Office (LNO), I helped create some workshops in order to support our synthesis working groups. My colleagues and I have hosted these workshops numerous times on an as-needed basis for these groups."
+  },
+  {
+    "objectID": "workshops.html#collaborative-coding-with-github",
+    "href": "workshops.html#collaborative-coding-with-github",
+    "title": "Workshops 🧰",
+    "section": "Collaborative Coding with GitHub",
+    "text": "Collaborative Coding with GitHub\n\nIn synthesis science, collaboration on code products is often integral to the productivity of the group. However, learning to use the software and graphical user interfaces that support this kind of teamwork can be a significant hurdle for teams that are already experts in their subject areas. This workshop is aimed at helping participants gain an understanding of the fundamental purpose and functioning of “version control” systems–specifically GitHub–to help teams more effectively code collaboratively.\nLink: workshop website"
+  },
+  {
+    "objectID": "workshops.html#coding-in-the-tidyverse",
+    "href": "workshops.html#coding-in-the-tidyverse",
+    "title": "Workshops 🧰",
+    "section": "Coding in the tidyverse",
+    "text": "Coding in the tidyverse\n\nFor teams that code using the R programming language, the most familiar tools are often part of “base R” meaning that those functions and packages come pre-loaded when R is installed. Relatively recently the tidyverse has emerged as a comprehensive suite of packages that can complement base R or serve as an alternative for some tasks. This includes packages like dplyr and tidyr as well as the perhaps infamous pipe operator (%&gt;%) among many other tools. This workshop is aimed at helping participants use the tidyverse equivalents of fundamental data wrangling tasks that learners may be used to performing with base R.\nLink: workshop website"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Angel Chen",
+    "section": "",
+    "text": "Hi, I’m Angel Chen! Welcome to my personal website ✨\n\n \n  \n   \n  \n    \n     Email\n  \n  \n    \n     CV\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Github\n  \n\n\n\n\nExperience\n\nNov 2024 – Present: Data Scientist | Malone Disturbance Ecology Lab\nFeb 2022 – Oct 2024: Data Analyst | National Center for Ecological Analysis and Synthesis (NCEAS)\nOct 2019 – Feb 2022: Data Curator | Arctic Data Center (ADC)\n\n\n\nEducation\n\n2021: Bachelor of Science in Statistics & Data Science | University of California, Santa Barbara\n\n\n\nInterests\n\nOpen science\nReproducible workflows\nBirds\nFashion"
   },
   {
     "objectID": "publications.html",
