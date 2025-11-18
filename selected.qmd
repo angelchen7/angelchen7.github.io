@@ -42,15 +42,6 @@ The [Plant Reproduction working group](https://lternet.edu/working-groups/identi
 
 **Links: [GitHub repo](https://github.com/NCEAS/scicomptasks/tree/main/lter-network/lter-wg_plant_repro)**
 
-## Exploratory Graphing 📈
-
-### Plant Reproduction
-
-The [Plant Reproduction working group](https://lternet.edu/working-groups/identifying-environmental-drivers-of-plant-reproduction-across-lter-sites/) requested me to help them explore a potential analysis for one of their manuscripts. They were interested in a time series plot showing the total seed mass production in grams per year at specific plots at a site. I manipulated the columns in the aforementioned integrated master dataset to calculate the grams of seed per species per year. Then I graphed the time series, with a separate panel for each plot. 
-
-**Links: [GitHub repo](https://github.com/NCEAS/scicomptasks/tree/main/wg_plant_repro)**
-
-
 ## Spatial Data 🌎
 
 ### Silica Export
@@ -72,3 +63,11 @@ After discussing with the group, we decided that it would be helpful for the gro
 In the end, the group was able to use my work to decide on the 700 or so papers that will be included in round 2 of the meta-analysis. 
 
 **Links: [GitHub repo](https://github.com/lter/lterwg-transitions/tree/main/Papers_Search)**
+
+## Exploratory Graphing 📈
+
+### Plant Reproduction
+
+The [Plant Reproduction working group](https://lternet.edu/working-groups/identifying-environmental-drivers-of-plant-reproduction-across-lter-sites/) requested me to help them explore a potential analysis for one of their manuscripts. They were interested in a time series plot showing the total seed mass production in grams per year at specific plots at a site. I manipulated the columns in the aforementioned integrated master dataset to calculate the grams of seed per species per year. Then I graphed the time series, with a separate panel for each plot. 
+
+**Links: [GitHub repo](https://github.com/NCEAS/scicomptasks/tree/main/lter-network/lter-wg_plant_repro)**
