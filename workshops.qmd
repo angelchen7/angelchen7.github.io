@@ -1,10 +1,12 @@
 ---
-title: "Workshops 🧰"
+title: "Workshops/Courses 🧰"
 ---
+
+## For Synthesis Working Groups
 
 When I was part of the Long Term Ecological Research Network Office ([LNO](https://lternet.edu/)), I helped create some workshops in order to support our [synthesis working groups](https://lternet.edu/current-working-groups/). My colleagues and I have hosted these workshops numerous times on an as-needed basis for these groups.
 
-## Collaborative Coding with GitHub 
+### Collaborative Coding with GitHub 
 
 <img src="images/github_logo_gray.png" align="right" width="20%"/>
 
@@ -12,10 +14,64 @@ In synthesis science, collaboration on code products is often integral to the pr
 
 **Link: [workshop website](https://nceas.github.io/scicomp-workshop-collaborative-coding/)**
 
-## Coding in the `tidyverse`
+### Coding in the `tidyverse`
 
 <img src="images/tidyverse_hex.png" align="right" width="20%"/>
 
 For teams that code using the R programming language, the most familiar tools are often part of "base R" meaning that those functions and packages come pre-loaded when R is installed. Relatively recently the `tidyverse` has emerged as a comprehensive suite of packages that can complement base R or serve as an alternative for some tasks. This includes packages like `dplyr` and `tidyr` as well as the perhaps infamous pipe operator (`%>%`) among many other tools. This workshop is aimed at helping participants use the `tidyverse` equivalents of fundamental data wrangling tasks that learners may be used to performing with base R.
 
 **Link: [workshop website](https://nceas.github.io/scicomp-workshop-tidyverse/)**
+
+## Other Workshops/Courses
+
+I've also participated in multiple workshops/courses as an instructor. These are listed below.
+
+### Reproducible Approaches to Arctic Research Using R
+
+<img src="images/nceas-learning-hub.png" align="right" width="15%"/>
+
+<img src="images/arctic-data-center.png" align="right" width="20%"/>
+
+This workshop is geared towards Arctic researchers, with the goal of teaching them skills such as data documentation, publication, modeling, wrangling and visualization, as well as tools like Git/GitHub, Quarto, and Data Portals. 
+
+**Link: [workshop website](https://doi.org/10.18739/A2QF8JM4T)**
+
+### Scalable and Computationally Reproducible Approaches to Arctic Research
+
+<img src="images/arctic-data-center.png" align="right" width="20%"/>
+
+This workshop provides researchers with an introduction to advanced topics in computationally reproducible research in python, including software and techniques for working with very large datasets. This includes working in cloud computing environments, docker containers, and parallel processing using tools like parsl and dask. The workshop will also cover concrete methods for documenting and uploading data to the Arctic Data Center, advanced approaches to tracking data provenance, responsible research and data management practices including data sovereignty and the CARE principles, and ethical concerns with data-intensive modeling and analysis.
+
+**Link: [workshop website](https://doi.org/10.18739/A2C53F33M)**
+
+### NCEAS coreR for Delta Science Program
+
+<img src="images/nceas-learning-hub.png" align="right" width="15%"/>
+
+<img src="images/delta.png" align="right" width="30%"/>
+
+As part of a collaboration between NCEAS and the Delta Science Program, this course has been adapted from NCEAS coreR course, an in-person immersion in R programming for environmental data science. Researchers will gain experience with essential data science tools and best practices to increase their capacity as collaborators, reproducible coders, and open scientists.
+
+**Link: [course website](https://learning.nceas.ucsb.edu/2024-06-delta/)**
+
+### LNO SSECR
+
+<img src="images/lter.png" align="right" width="11%"/>
+
+Synthesis Skills for Early Career Researchers (SSECR; [SEE-ker]) is a newly-designed course organized by the Long Term Ecological Research (LTER) Network. This course aims to address the need for more comprehensive interpersonal and data skills in ecology. Participants will gain the technical and interpersonal skills needed to assemble, scope, manage, and communicate a team-science synthesis project. Participants will put the lessons into immediate practice through a team science project with LTER colleagues from across the network. 
+
+**Link: [course website](https://lter.github.io/ssecr/), [informational page](https://lternet.edu/ssecr/)**
+
+### Ecological Data Synthesis: A Primer of Essential Methods
+
+<img src="images/lter.png" align="right" width="11%"/>
+
+<img src="images/neon.png" align="right" width="30%"/>
+
+<img src="images/edi.png" align="right" width="12%"/>
+
+In recent decades, ecology has become a more collaborative discipline motivated by the search for generality across ecosystems. At the same time, the availability, quantity, and quality of environmental data have grown rapidly, creating opportunities for re-use of these data in ecological synthesis research. Though synthesis research is complex and demanding, taking an inclusive and collaborative approach to both the scientific process and the data pays dividends throughout the lifetime of a project. This short course is a survey of methods for making ecological synthesis research a "team sport".
+
+Although this course has been offered both in 2024 and 2025 at the  Ecological Society of America ([ESA](https://esa.org/)) Annual Meeting, I've participated as an instructor for the 2024 course only.
+
+**Link: [course website](https://lter.github.io/eco-data-synth-primer/)**
