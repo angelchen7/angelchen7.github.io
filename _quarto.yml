@@ -20,8 +20,8 @@ website:
       - publications.qmd
       - text: "Other Products"
         menu: 
-          - workshops.qmd
           - packages.qmd
+          - workshops.qmd
           - projects.qmd
     right:
       - icon: envelope-fill
