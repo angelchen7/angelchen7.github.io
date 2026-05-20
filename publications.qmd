@@ -4,7 +4,13 @@ title: "Publications 📖"
 
 Here are the publications I've been a part of! 
 
-Maurer, G. E. et al. Ten simple rules for team synthesis in ecological research. [In prep]
+Maurer, G. E. et al. Ten simple rules for team synthesis in ecological research. <i>[In review at Methods in Ecology and Evolution]</i>
+
+White, M. et al. Scale-dependent effects of species richness and asynchrony regulate the temporal stability of consumer-mediated nutrient dynamics. <i>[In review at Proceedings of the National Academy of Sciences]</i>
+
+Malone, S. L. et al. A continental benchmark dataset for evaluating ecosystem gradient-flux approaches across 47 NEON flux towers. <i>[In prep]</i>
+
+Macias, D. et al. Contrasting drivers of seed-production tempo at different scales of comparison. <i>[In prep]</i>
 
 Ohlert, T. et al. (2025). Drought intensity and duration interact to magnify losses in primary productivity. <i>Science, 390</i>(6770), 284-289. [doi.org/10.1126/science.ads8144](https://doi.org/10.1126/science.ads8144).
 
