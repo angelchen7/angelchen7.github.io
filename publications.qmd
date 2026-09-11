@@ -4,22 +4,21 @@ title: "Publications 📖"
 
 Here are the publications I've been a part of! 
 
-Maurer, G. E. et al. Ten simple rules for team synthesis in ecological research. <i>[In review at Methods in Ecology and Evolution]</i>
+Macias, D. et al. Trait and climate associations with seed production variability shift with taxonomic and spatial scale. <i>[In prep]</i>
 
-White, M. et al. Scale-dependent effects of species richness and asynchrony regulate the temporal stability of consumer-mediated nutrient dynamics. <i>[In review at Proceedings of the National Academy of Sciences]</i>
+Malone, S. L. et al. A continental benchmark dataset for evaluating ecosystem gradient-flux approaches across 47 NEON flux towers. <i>[In review at ESSD]</i>
 
-Malone, S. L. et al. A continental benchmark dataset for evaluating ecosystem gradient-flux approaches across 47 NEON flux towers. <i>[In prep]</i>
+White, M. et al. (2026). Scale-dependent effects of species richness and asynchrony regulate the temporal stability of consumer-mediated nutrient dynamics. <i>Proceedings of the National Academy of Sciences U.S.A., 123</i>(37), Article e2532469123. [doi.org/10.1073/pnas.2532469123](https://doi.org/10.1073/pnas.2532469123). 
 
-Macias, D. et al. Contrasting drivers of seed-production tempo at different scales of comparison. <i>[In prep]</i>
+Elmendorf, S. C., Maurer, G. E., Lyon, N. J., Downs, M. R., LaMontagne, J. M., Barry, K. E., Chen, A., Dee, L. E., Earl, S., Isbell, F., Sokol, E. R., & Carey, J. C. (2026). Ten simple rules for team synthesis in ecological research. <i>Methods in Ecology and Evolution, 17</i>(9), 2551–2558. [doi.org/10.1111/2041-210x.70378](https://doi.org/10.1111/2041-210x.70378).
 
 Ohlert, T. et al. (2025). Drought intensity and duration interact to magnify losses in primary productivity. <i>Science, 390</i>(6770), 284-289. [doi.org/10.1126/science.ads8144](https://doi.org/10.1126/science.ads8144).
 
-Malone, S. L., McLeod, G., Chen, A. & Tupaj, M. (2025). Contemporary Fire Regimes of the Subtropical Everglades. <i>Sci Data, 12</i>, Article 1622. [doi.org/10.1038/s41597-025-05917-6](https://doi.org/10.1038/s41597-025-05917-6).
+Malone, S. L., McLeod, G., Chen, A., & Tupaj, M. (2025). Contemporary Fire Regimes of the Subtropical Everglades. <i>Sci Data, 12</i>, Article 1622. [doi.org/10.1038/s41597-025-05917-6](https://doi.org/10.1038/s41597-025-05917-6).
 
-Brun, J. et al. (2025). Enabling data-driven collaborative and reproducible environmental synthesis science. <i>Methods in Ecology and Evolution, 16</i>(6), 1061–1074. [doi.org/10.1111/2041-210X.70036](https://doi.org/10.1111/2041-210X.70036).
+Brun, J., Lyon, N. J., Chen, A., Slette, I., De La Rosa, G., Caselle, J. E., Davis, F. W., & Downs, M. R. (2025). Enabling data-driven collaborative and reproducible environmental synthesis science. <i>Methods in Ecology and Evolution, 16</i>(6), 1061–1074. [doi.org/10.1111/2041-210X.70036](https://doi.org/10.1111/2041-210X.70036).
 
 Nigro, K. M. et al. (2025). Co-mast: Harmonized seed production data for woody plants across US long-term research sites. <i>Ecology, 106</i>(1), Article e4463. [doi.org/10.1002/ecy.4463](https://doi.org/10.1002/ecy.4463).
 
 LaMontagne, J. M. et al. (2024). Community Synchrony in Seed Production is Associated With Trait Similarity and Climate Across North America. <i>Ecology Letters, 27</i>(12), Article e14498. [doi.org/10.1111/ele.14498](https://doi.org/10.1111/ele.14498).
-
 
